@@ -16,3 +16,7 @@
   font-family: "HelveticaNeueMed";
   src: url("../public/fonts/HelveticaNeueMed.ttf");
 }
+
+.custom-img {
+  background-image: url('../public/images/hero_1.jpg')
+}

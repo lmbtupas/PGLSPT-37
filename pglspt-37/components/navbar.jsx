@@ -13,7 +13,7 @@ const NavBar = () => {
   }
 
   return (
-    <div className='fixed left-0 top-0 w-full bg-blue'>
+    <div className='fixed left-0 top-0 w-full z-[3]'>
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white font-body'>
         <Link href='/'>
           <Image
