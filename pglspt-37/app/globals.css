@@ -17,6 +17,26 @@
   src: url("../public/fonts/HelveticaNeueMed.ttf");
 }
 
-.custom-img {
+.custom_img {
   background-image: url('../public/images/hero_1.jpg')
+}
+
+.header_1 {
+  @apply text-yellow font-header text-8xl
+}
+
+.header_2 {
+  @apply text-yellow font-header text-5xl
+}
+
+.subheader_1 {
+  @apply text-white font-header text-3xl
+}
+
+.subheader_2 {
+  @apply text-white font-italic text-3xl
+}
+
+.body_text {
+  @apply text-white font-body text-xl
 }
