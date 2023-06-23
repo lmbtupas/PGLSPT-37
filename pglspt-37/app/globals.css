@@ -40,3 +40,7 @@
 .body_text {
   @apply text-white font-body text-xl
 }
+
+.btn {
+  @apply bg-white rounded-lg py-2 px-3 font-body text-blue
+}
