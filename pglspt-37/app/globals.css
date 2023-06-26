@@ -21,6 +21,10 @@
   background-image: url('../public/images/hero_1.jpg')
 }
 
+.custom_img_2 {
+  background-image: url('../public/images/hero_2.jpg')
+}
+
 .header_1 {
   @apply text-yellow font-header text-8xl
 }

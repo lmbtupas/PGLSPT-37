@@ -9,14 +9,14 @@ const Hero = () => {
             <div className='absolute top-0 left-0 right-0 bottom-0 bg-[#000F34]/80 z-[2] h-screen' />
             <div className='flex flex-col z-[2] justify-center items-center'>
                 <div className='text-white font-header text-3xl'>
-                    PIGLAS 37
+                    PIGLASAPAT 37
                 </div>
                 
                 <div className='px-8'>
                     <Image
                         src="/images/COP.png"
-                        width={500}
-                        height={500}
+                        width={550}
+                        height={550}
                         alt="chase our purpose logotype"
                         priority={true}
                         unoptimized
