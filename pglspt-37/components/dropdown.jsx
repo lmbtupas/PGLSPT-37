@@ -10,7 +10,7 @@ const DropDown = () => {
     return (
         <div className="flex flex-col items-center w-[340px]">
             <button onClick={() => setIsOpen((prev) => !prev)} 
-            className="bg-white text-blue font-header p-4 w-full flex items-center justify-between text-xl tracking-wide rounded-lg border-4 border-white active:border-blue duration-300">
+            className="bg-white text-blue font-header p-3 w-full flex items-center justify-between text-xl tracking-wide rounded-lg border-4 border-white active:border-blue duration-300">
                 Be a Member Now 
                 {!isOpen ? (
                     <AiOutlineCaretDown  className="h-8" />
