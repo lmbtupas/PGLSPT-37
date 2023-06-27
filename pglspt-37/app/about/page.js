@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image"
+import Carousel from "@/components/carousel"
 
 export default function About() {
   return (
@@ -20,7 +21,7 @@ export default function About() {
       
       <section className="flex flex-col items-center justify-center h-screen bg-fixed bg-center bg-cover custom_img_2">
         <div className='absolute bg-[#000F34]/80 z-[2] h-screen w-full' />
-          PIGLAS 37
+          <Carousel />
       </section>
       
       <section className="flex flex-col items-center justify-center h-screen bg-fixed bg-center bg-cover custom_img">
