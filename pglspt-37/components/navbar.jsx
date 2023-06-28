@@ -46,7 +46,7 @@ const NavBar = () => {
           </li>
         </ul>
 
-        <ul className='flex gap-8'>
+        <ul className='lg:flex gap-8 hidden '>
           <li>
             <Link href='/'>
               <Image

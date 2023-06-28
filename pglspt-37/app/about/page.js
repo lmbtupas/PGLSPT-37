@@ -19,9 +19,13 @@ export default function About() {
         </div>
       </section>
       
-      <section className="flex flex-col items-center justify-center h-screen bg-fixed bg-center bg-cover custom_img_2">
-        <div className='absolute bg-[#000F34]/80 z-[2] h-screen w-full' />
-          <Carousel />
+      <section className="flex flex-col items-center justify-center h-auto bg-fixed bg-center bg-cover custom_img_2">
+        <div className='absolute bg-[#000F34]/80 z-[2] h-full w-full' />
+          <div className="flex flex-col items-center justify-center z-[3] ">
+            <h2 className="header_1"> Our Pillars  </h2>
+            <h2 className="subheader_1 uppercase"> A PIGLASAPAT Leader Adheres to the Three Pillars  </h2>
+            <Carousel />
+          </div>
       </section>
       
       <section className="flex flex-col items-center justify-center h-screen bg-fixed bg-center bg-cover custom_img">
