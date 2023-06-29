@@ -4,6 +4,7 @@ import { Box, Tab } from '@mui/material'
 import { TabContext, TabList, TabPanel } from '@mui/lab'
 import { useState } from 'react'
 import Image from "next/image";
+import Link from 'next/link';
 import data from '../../data/milestonesData.json'
 import img from '@/public/images/hero_1.jpg'
 
@@ -16,7 +17,7 @@ export default function MilestoneTabs() {
   return (
     <div className='flex felx-row w-full'>
         <TabContext value={value}>
-        <div>
+        <div className='my-auto'>
             <TabList
             orientation='vertical'
             onChange={handleChange}
@@ -49,7 +50,7 @@ export default function MilestoneTabs() {
                         <Image src={img} fill={true} style={{objectFit: "cover"}} className='rounded-lg'/>   
                         <div className='absolute top-0 left-0 right-0 bottom-0 bg-[#000F34]/50 backdrop-blur-sm rounded-lg' />
                     </div>
-                    <div className='relative'>
+                    <div className='flex flex-col relative h-full'>
                         <div className='text-center subheader_1'>
                             {item.title}
                         </div>
@@ -59,6 +60,14 @@ export default function MilestoneTabs() {
                         <div>
                             {item.text}
                         </div>
+                            <Link href='/' className='self-end mt-auto'>
+                                <Image
+                                    src="/images/arrow_button.png"
+                                    width={35}
+                                    height={35}
+                                    alt="arrow button"
+                                />
+                            </Link>
                     </div>
                     </div>
                 </TabPanel>
