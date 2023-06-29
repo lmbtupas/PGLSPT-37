@@ -2,18 +2,33 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const NavBar = () => {
-  const [nav, setNav] = useState(false)
+  const [nav, setNav] = useState(false);
+  const [color, setColor] = useState('transparent')
+  const [textColor, setTextColor] = useState('white')
 
   const handleNav = () => {
     setNav(!nav)
   }
+  
+  useEffect (() => {
+    const changeColor = () => {
+      if(window.scrollY >= 90) {
+        setColor('#0A57A7')
+        setTextColor('#ffffff')
+      } else {
+        setColor('transparent')
+        setTextColor('#ffffff')
+      }
+    }
+    window.addEventListener('scroll', changeColor)
+  }, []);
 
   return (
-    <div className='fixed left-0 top-0 w-full z-[3]'>
+    <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-[4] ease-in duration-300'>
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white font-body'>
         <Link href='/'>
           <Image
@@ -25,7 +40,7 @@ const NavBar = () => {
             />
         </Link>
 
-        <ul className="hidden sm:flex gap-4">
+        <ul style={{color: `${textColor}`}} className="hidden sm:flex gap-4">
           <li className="p-4 text-xl">
             <Link href='/'> About </Link>
           </li>
@@ -81,7 +96,7 @@ const NavBar = () => {
 
         {/*Mobile Button */}
         <div onClick={handleNav} className="block sm:hidden z-10" >
-          {nav ? <AiOutlineClose size={30}/> : <AiOutlineMenu size={30}/>}
+          {nav ? <AiOutlineClose size={30} style={{color: `${textColor}`}} /> : <AiOutlineMenu size={30} style={{color: `${textColor}`}} />}
         </div>
 
         {/*Mobile Menu */}
