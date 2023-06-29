@@ -3,7 +3,9 @@
 import { Box, Tab } from '@mui/material'
 import { TabContext, TabList, TabPanel } from '@mui/lab'
 import { useState } from 'react'
+import Image from "next/image";
 import data from '../../data/milestonesData.json'
+import img from '@/public/images/hero_1.jpg'
 
 export default function MilestoneTabs() {
     const [value, setValue] = useState(0)
@@ -19,16 +21,21 @@ export default function MilestoneTabs() {
             orientation='vertical'
             onChange={handleChange}
             aria-label='Tabs example'
-            textColor='secondary'
-            indicatorColor='secondary'
+            // textColor='#FFC705'
+            TabIndicatorProps={{sx: {backgroundColor: 'white'}}}
             // centered
             // variant='scrollable'
             scrollButtons='auto'
-            sx={{ borderRight: 1, borderColor: 'divider', width: '12rem' }}
+            sx={{ borderRight: 1, borderColor: 'white', width: '14rem',"& button.Mui-selected": { color: '#FFC705',}}}
             >
+                <div className='text-white font-body text-3xl text-right pr-4 pb-4'>MILESTONES</div>
             {
                 data.items.map((item, index) => (
-                    <Tab value = {index} label = {item.title} sx={{alignItems: 'end', textAlign: 'right'}}/>
+                    <Tab 
+                        value = {index} 
+                        key = {index} 
+                        label = {item.title} 
+                        sx={{alignItems: 'end', textAlign: 'right', color: 'white', padding: '0 1rem', height: '2.5rem', minHeight: '2.5rem'}}/>
                 ))
             }
             </TabList>
@@ -36,8 +43,24 @@ export default function MilestoneTabs() {
         <div>
             {data.items.map((item, index) => {
                 return (
-                <TabPanel value={index}>
-                    {item.text}
+                <TabPanel value={index} key = {index} sx={{height: '100%', color: 'white'}}>
+                    <div className='relative h-full p-6 rounded-lg'>
+                    <div className="w-full h-full absolute top-0 left-0 rounded-lg">
+                        <Image src={img} fill={true} style={{objectFit: "cover"}} className='rounded-lg'/>   
+                        <div className='absolute top-0 left-0 right-0 bottom-0 bg-[#000F34]/50 backdrop-blur-sm rounded-lg' />
+                    </div>
+                    <div className='relative'>
+                        <div className='text-center subheader_1'>
+                            {item.title}
+                        </div>
+                        <div className='text-center mb-4'>
+                            {item.date}
+                        </div>
+                        <div>
+                            {item.text}
+                        </div>
+                    </div>
+                    </div>
                 </TabPanel>
                 );
             })}
