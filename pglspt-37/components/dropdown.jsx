@@ -3,7 +3,7 @@
 
 import { AiOutlineCaretDown, AiOutlineCaretUp } from "react-icons/ai"
 import React, {useState} from "react";
-import list from "../dropdown_list.json"
+import list from "../data/dropdown_list.json"
 
 const DropDown = () => {
     const [isOpen, setIsOpen] = useState(false);
