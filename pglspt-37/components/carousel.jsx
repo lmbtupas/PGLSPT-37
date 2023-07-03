@@ -1,64 +1,101 @@
-/* eslint-disable react/jsx-key */
-'use client';
+'use client'
 
-import React, { useState } from "react";
+import { Carousel, Typography, Button } from "@material-tailwind/react";
 import Image from "next/image";
-import { CarouselData } from "./carousel_data";
-import { AiFillCaretLeft, AiFillCaretRight } from "react-icons/ai";
-
-const Carousel = ({slides}) => { 
-const [current, setCurrent] = useState(0)
-const length = slides.length
-
-const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1)
-}
-
-const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1)
-}
-
-if (!Array.isArray(slides) || slides.length <= 0) {
-    return null;
-}
-
-    return (
-        <div id="pillars" className="max-w-[840px] mx-auto">
-            <div className="relative flex justify-center p-4">
-            {CarouselData.map((slide, index) => {
-                return (
-                    <div 
-                    key={index}
-                    className={
-                        index === current 
-                        ? 'opacity-[1] tran duration-300'
-                        : 'opacity-0'
-                        }
-                    >
-
-                            <AiFillCaretLeft onClick={prevSlide} size={50} className="absolute top-[50%] left-[30px] text-white/70 cursor-pointer select-none z-[4]"/>
-                                {index === current && (
-                                    <div>
-                                        <div className="">
-                                            <Image 
-                                                src={slide.image} 
-                                                alt="/" 
-                                                width={1440} 
-                                                height={600} 
-                                                style={{objectFit:'cover'}}
-                                            />
-                                            <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#000F34]/50 backdrop-blur-sm rounded-lg" />
-                                        </div>
-                                    </div>
-                                )}
-                            <AiFillCaretRight onClick={nextSlide} size={50} className="absolute top-[50%] right-[30px] text-white/70 cursor-pointer select-none z-[4]"/>
-                        </div>
-                    
-                )
-            })}
+ 
+export default function Slider() {
+  return (
+    <div className="max-w-[740px] h-auto mt-5">
+        <Carousel className="rounded-xl">
+        {/* Slide 1*/}
+        <div className="relative h-full w-full">
+            <Image
+                src="/images/hero_1.jpg"
+                alt="image 1"
+                width={1440}
+                height={840}
+                style={{objectFit:"cover"}}
+                className="blur"
+            />
+            <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
+            <div className="w-3/4 text-center md:w-2/4">
+                <Typography
+                variant="h1"
+                className="mb-4 text-3xl md:text-4xl lg:text-6xl font-header text-yellow"
+                >
+                People
+                </Typography>
+                <Typography
+                color="white"
+                className="mb-12 font-body text-2xl"
+                >
+                We hone our members to be people equipped with various 
+                capacities and potentials who will remain in mission 
+                to serve the Ateneo and the nation.
+                </Typography>
+            </div>
             </div>
         </div>
-    )
-}
 
-export default Carousel
+        {/* Slide 2 */}
+        <div className="relative h-full w-full">
+            <Image
+                src="/images/hero_2.jpg"
+                alt="image 1"
+                width={1440}
+                height={840}
+                style={{objectFit:"cover"}}
+                className="blur"
+            />
+            <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
+            <div className="w-3/4 text-center md:w-2/4">
+            <Typography
+                variant="h1"
+                className="mb-4 text-3xl md:text-4xl lg:text-6xl font-header text-yellow"
+                >
+                Passion
+                </Typography>
+                <Typography
+                color="white"
+                className="mb-12 font-body text-2xl"
+                >
+                We keep the fire of our reimagined aspirations 
+                burning from a selfless place of love for the country and for the community.
+                </Typography>
+            </div>
+            </div>
+        </div>
+
+        {/* Slide 3 */}
+        <div className="relative h-full w-full">
+            <Image
+                src="/images/hero_1.jpg"
+                alt="image 1"
+                width={1440}
+                height={840}
+                style={{objectFit:"cover"}}
+                className="blur"
+            />
+            <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
+            <div className="w-3/4 text-center md:w-2/4">
+            <Typography
+                variant="h1"
+                className="mb-4 text-3xl md:text-4xl lg:text-6xl font-header text-yellow"
+                >
+                Principles
+                </Typography>
+                <Typography
+                color="white"
+                className="mb-12 font-body text-2xl"
+                >
+                We ground ourselves on our core principles of active non-violence, 
+                authentic Christian humanism, liberating faith, 
+                pro-people democracy, and faith that does justice.
+                </Typography>
+            </div>
+            </div>
+        </div>
+        </Carousel>
+    </div>
+  );
+}

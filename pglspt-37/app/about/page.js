@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image"
-import Carousel from "@/components/carousel"
+import Slider from "@/components/carousel"
 import { CarouselData } from "@/components/carousel_data"
 
 export default function About() {
@@ -26,7 +26,7 @@ export default function About() {
           <div className="z-[3] flex flex-col items-center justify-center mt-[2rem] md:mt-8 md:mb-0">
             <h2 className="text-yellow font-header text-6xl md:text-8xl"> Our Pillars  </h2>
             <h2 className="text-white font-header text-xl md:text-3xl text-center uppercase"> A PIGLASAPAT Leader Adheres to the Three Pillars  </h2>
-              <Carousel slides={CarouselData} />
+              <Slider />
           </div>
         </div>
       </section>
