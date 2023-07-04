@@ -1,7 +1,12 @@
 'use client';
 
-import { Box, Tab } from '@mui/material'
-import { TabContext, TabList, TabPanel } from '@mui/lab'
+import {
+    Tabs,
+    TabsHeader,
+    TabsBody,
+    Tab,
+    TabPanel,
+  } from "@material-tailwind/react";
 import { useState } from 'react'
 import Image from "next/image";
 import Link from 'next/link';
@@ -9,38 +14,31 @@ import data from '@/data/milestonesData.json'
 import img1 from '@/public/images/hero_1.jpg'
 
 export default function MilestoneTabs() {
-    const [value, setValue] = useState(0)
-
-    const handleChange = (event, newValue) => {
-        setValue(newValue)
-    }
+    const [activeTab, setActiveTab] = useState(0);
   return (
     <div className='flex felx-row w-6/12 m-auto'>
-        <TabContext value={String(value)}>
-        <div className='my-auto'>
-            <TabList
-            orientation='vertical'
-            onChange={handleChange}
-            aria-label='Tabs example'
-            TabIndicatorProps={{sx: {backgroundColor: 'white'}}}
-            // variant='scrollable'
-            scrollButtons='auto'
-            sx={{ borderRight: 1, borderColor: 'white', width: '14rem',"& button.Mui-selected": { color: '#FFC705',}}}
+        <Tabs value={activeTab} orientation="vertical">
+            <TabsHeader
+                className="flex-col w-56 rounded-none border-r border-blue-gray-50 bg-transparent p-0"
+                indicatorProps={{
+                className: "bg-transparent border-r-2 border-blue-500 shadow-none rounded-none",
+                }}
             >
                 <div className='text-white font-body text-3xl text-right pr-4 pb-4'>MILESTONES</div>
-            {data.items.map((item, index) => (
-                    <Tab 
-                        value = {String(index)} 
-                        key = {index} 
-                        label = {item.title} 
-                        sx={{alignItems: 'end', textAlign: 'right', color: 'white', padding: '0 1rem', height: '2.5rem', minHeight: '2.5rem'}}/>
-                ))
-            }
-            </TabList>
-        </div>
-        <div>
-            {data.items.map((item, index) => (
-                <TabPanel value={String(index)} key = {index} sx={{height: '100%', color: 'white'}}>
+                {data.items.map((item, index) => (
+                <Tab
+                    key={index}
+                    value={index}
+                    onClick={() => setActiveTab(index)}
+                    className={`text-body text-lg text-right justify-end ${activeTab === index ? "text-yellow" : "text-white"}`}
+                >
+                    {item.title}
+                </Tab>
+                ))}
+            </TabsHeader>
+            <TabsBody>
+                {data.items.map((item, index) => (
+                <TabPanel key={index} value={index} className="h-full text-white">
                     <div className='relative h-full p-6 rounded-lg'>
                         <div className="w-full h-full absolute top-0 left-0 rounded-lg">
                             <Image alt="/" src={img1} fill={true} style={{objectFit: "cover"}} className='rounded-lg'/>   
@@ -50,10 +48,10 @@ export default function MilestoneTabs() {
                             <div className='text-center subheader_1'>
                                 {item.title}
                             </div>
-                            <div className='text-center mb-4'>
+                            <div className='text-center body_text mb-4'>
                                 {item.date}
                             </div>
-                            <div>
+                            <div className='body_text'>
                                 {item.text}
                             </div>
                                 <Link href='/' className='self-end mt-auto'>
@@ -67,9 +65,9 @@ export default function MilestoneTabs() {
                         </div>
                     </div>
                 </TabPanel>
-            ))}
-        </div>
-        </TabContext>
+                ))}
+            </TabsBody>
+        </Tabs>
     </div>
   )
 }
