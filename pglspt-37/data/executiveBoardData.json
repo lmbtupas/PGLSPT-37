@@ -1,0 +1,39 @@
+{
+    "officers" : [
+        {
+            "name": "John Paul Sapsal",
+            "position": "President",
+            "img": ""
+        },
+        {
+            "name": "Ruperth Adrianne Lim",
+            "position": "Internal Vice President",
+            "img": ""
+        },
+        {
+            "name": "Chris Laurence Tungpalan",
+            "position": "External Vice President",
+            "img": ""
+        },
+        {
+            "name": "Joanna Danielle Ang",
+            "position": "Secretary-General",
+            "img": ""
+        },
+        {
+            "name": "Vince Christian Padernal",
+            "position": "Treasurer",
+            "img": ""
+        },
+        {
+            "name": "Odyssey Mhel Abo-ol",
+            "position": "Auditor",
+            "img": ""
+        },
+        {
+            "name": "Pam Danica Dy",
+            "position": "Public Relations Officer",
+            "img": ""
+        }
+    ]
+}

@@ -42,7 +42,7 @@
 }
 
 .body_text {
-  @apply text-white font-body text-xl
+  @apply text-white font-body text-lg
 }
 
 .btn {

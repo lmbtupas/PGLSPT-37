@@ -1,0 +1,315 @@
+{
+    "deps" : [
+        {
+            "title" : "Deputies to the Office of the President",
+            "officers" : [
+                {
+                    "name": "Hyacinth Lei Cuyno",
+                    "position": "Chief of Staff",
+                    "img": ""
+                },
+                {
+                    "name": "Jeffelson Utay",
+                    "position": "Executive Secretary",
+                    "img": ""
+                },
+                {
+                    "name": "Aleah Nisha Hyacinthe Carungay",
+                    "position": "Executive Undersecretary",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "title" : "Deputies to the Office of the Internal Vice-President",
+            "officers" : [
+                {
+                    "name": "Lyana Daniel Angela Castillo",
+                    "position": "Internal Secretary",
+                    "img": ""
+                },
+                {
+                    "name": "Filfred Kaizzer Calma",
+                    "position": "Internal Undersecretary",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "title" : "Deputies to the Office of the External Vice-President",
+            "officers" : [
+                {
+                    "name": "Ma. Marvie Bosque",
+                    "position": "External Secretary",
+                    "img": ""
+                },
+                {
+                    "name": "Karylle Mae Yu",
+                    "position": "External Undersecretary",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "title" : "Deputies to the Office of the Secretary-General",
+            "officers" : [
+                {
+                    "name": "Ruezza Maree Rosales",
+                    "position": "Administrative Secretary",
+                    "img": ""
+                },
+                {
+                    "name": "Kristine Lantajo",
+                    "position": "Administrative Undersecretary",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "title" : "Deputies to the Office of the Treasurer",
+            "officers" : [
+                {
+                    "name": "Sean Raymond Domingo",
+                    "position": "Finance Secretary",
+                    "img": ""
+                },
+                {
+                    "name": "Althea Francoise Castaritas",
+                    "position": "Finance Undersecretary",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "title" : "Department Directors of the President",
+            "officers" : [
+                {
+                    "name": "Jet Lemuel Salazar",
+                    "position": "Political Affairs Director",
+                    "img": ""
+                },
+                {
+                    "name": "Adrian Neil Jamila",
+                    "position": "Advocacy and Community Extension Director",
+                    "img": ""
+                },
+                {
+                    "name": "Philip Jayson Lestojas",
+                    "position": "Advocacy and Community Extension Deputy Director",
+                    "img": ""
+                },
+                {
+                    "name": "Ayn Cherish Lantingan",
+                    "position": "Data Analytics Director",
+                    "img": ""
+                },
+                {
+                    "name": "Zoe Garcenila",
+                    "position": "Data Analytics Deputy Director",
+                    "img": ""
+                },
+                {
+                    "name": "Charles Andrew Ruiz",
+                    "position": "Memberships Director",
+                    "img": ""
+                },
+                {
+                    "name": "Phelix Bartolome",
+                    "position": "Memberships Deputy Director",
+                    "img": ""
+                },
+                {
+                    "name": "Jewel Batoon",
+                    "position": "Memberships Deputy Director",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "title" : "Department Directors of the Internal Vice-President",
+            "officers" : [
+                {
+                    "name": "Samantha Chynna Capin",
+                    "position": "Mentorships Director",
+                    "img": ""
+                },
+                {
+                    "name": "Angelica Louise Rivamonte",
+                    "position": "Mentorships Deputy Director",
+                    "img": ""
+                },
+                {
+                    "name": "Ma. Helena Angela Serrano",
+                    "position": "Academic Affairs Director",
+                    "img": ""
+                },
+                {
+                    "name": "Mikaela Juliana Franco",
+                    "position": "Academic Affairs Deputy Director",
+                    "img": ""
+                },
+                {
+                    "name": "Granil Khate Dioso",
+                    "position": "Disaster Risk Reduction and Management Director",
+                    "img": ""
+                },
+                {
+                    "name": "Vanessa Tino",
+                    "position": "Disaster Risk Reduction and Management Deputy Director",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "title" : "Department Directors of the External Vice-President",
+            "officers" : [
+                {
+                    "name": "Enrico Daniel David",
+                    "position": "Partnerships and Linkages Director",
+                    "img": ""
+                },
+                {
+                    "name": "Charyssa Gaile Piñar",
+                    "position": "Partnerships and Linkages Deputy Director",
+                    "img": ""
+                },
+                {
+                    "name": "Jeanna Rein Borres",
+                    "position": "Publications Director / Editor-in-Chief",
+                    "img": ""
+                },
+                {
+                    "name": "Samantha Marie Lacuna",
+                    "position": "Publications Deputy Director / Associate Editor-in-Chief",
+                    "img": ""
+                },
+                {
+                    "name": "Odyssey Mhel Abo-ol",
+                    "position": "Alumni Affairs Director",
+                    "img": ""
+                },
+                {
+                    "name": "Nicole Diwa",
+                    "position": "Alumni Affairs Deputy Director",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "title" : "Department Directors of the Secretary-General",
+            "officers" : [
+                {
+                    "name": "Pam Danica Dy",
+                    "position": "Communications Director",
+                    "img": ""
+                },
+                {
+                    "name": "Rustom Jordan Olaso",
+                    "position": "Communications Deputy Director",
+                    "img": ""
+                },
+                {
+                    "name": "Xianne Dereka Dacera",
+                    "position": "Productions Director",
+                    "img": ""
+                },
+                {
+                    "name": "Jeahan Kabalu",
+                    "position": "Productions Deputy Director",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "title" : "PIGLASAPAT Creative Team",
+            "officers" : [
+                {
+                    "name": "Jayne Marie Delos Santos",
+                    "position": "Creatives Director",
+                    "img": ""
+                },
+                {
+                    "name": "Ces Ruelene Arcala",
+                    "position": "Creatives Deputy Director",
+                    "img": ""
+                },
+                {
+                    "name": "Marian Jayvee Magsigay",
+                    "position": "Creatives Deputy Director",
+                    "img": ""
+                },
+                {
+                    "name": "Desiree Veneracion",
+                    "position": "Video Assistant Head",
+                    "img": ""
+                },
+                {
+                    "name": "Seanne Jayectin",
+                    "position": "Graphics Head",
+                    "img": ""
+                },
+                {
+                    "name": "Jolinna Marie Yncierto",
+                    "position": "Graphics Assistant Head",
+                    "img": ""
+                },
+                {
+                    "name": "Riel Rafael Calzada",
+                    "position": "Motion Graphics Head",
+                    "img": ""
+                },
+                {
+                    "name": "Kristina Fatima Anna Guba",
+                    "position": "Layout Assistant Head",
+                    "img": ""
+                },
+                {
+                    "name": "Leila Hamdain",
+                    "position": "Photo Head",
+                    "img": ""
+                },
+                {
+                    "name": "Lisa Marie Mesiona",
+                    "position": "Photo Assistant Head",
+                    "img": ""
+                },
+                {
+                    "name": "April Riane Miranda",
+                    "position": "Technicals Head",
+                    "img": ""
+                },
+                {
+                    "name": "Kaye Delosa Gomez",
+                    "position": "Technicals Assistant Head",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "title" : "Department Directors of the Treasurer",
+            "officers" : [
+                {
+                    "name": "Ana Margarita Bacalso",
+                    "position": "Sponsorships Director",
+                    "img": ""
+                },
+                {
+                    "name": "Denise Maxyn Amarga",
+                    "position": "Sponsorships Deputy Director",
+                    "img": ""
+                },
+                {
+                    "name": "Najerah Zacaria",
+                    "position": "Logistics Director",
+                    "img": ""
+                },
+                {
+                    "name": "Youka Hayashiyama",
+                    "position": "Logistics Deputy Director",
+                    "img": ""
+                }
+            ]
+        }
+    ]
+    
+}
