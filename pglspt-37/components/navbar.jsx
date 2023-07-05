@@ -42,22 +42,22 @@ const NavBar = () => {
 
         <ul style={{color: `${textColor}`}} className="hidden sm:flex gap-4">
           <li className="p-4 text-xl">
-            <Link href='/'> About </Link>
+            <Link href='/about'> About </Link>
           </li>
           <li className="p-4 text-xl">
-            <Link href='/'> Milestones </Link>
+            <Link href='/milestones'> Milestones </Link>
           </li>
           <li className="p-4 text-xl">
-            <Link href='/'> Officers </Link>
+            <Link href='/officers'> Officers </Link>
           </li>
           <li className="p-4 text-xl">
-            <Link href='/'> Alumni </Link>
+            <Link href='/notable-phoenixes'> Alumni </Link>
           </li>
           <li className="p-4 text-xl">
-            <Link href='/'> Events </Link>
+            <Link href='/activities'> Activities </Link>
           </li>
           <li className="p-4 text-xl">
-            <Link href='/'> Liyab </Link>
+            <Link href='/liyab'> Liyab </Link>
           </li>
         </ul>
 

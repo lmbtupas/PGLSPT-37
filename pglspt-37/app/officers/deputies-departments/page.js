@@ -5,13 +5,13 @@ import img1 from '@/public/images/hero_1.jpg'
 
 export default function page() {
   return (
-    <Background>
+    <Background bgImg={img1}>
       <div className='header_2 text-center mt-12 mb-24'>
         DEPUTIES & DEPARTMENTS
       </div>
         {
           data.deps.map((item,index)=>(
-            <div key={index} className='flex flex-col mb-10'>
+            <div key={index} className='flex flex-col mb-24'>
               <div className='text-center mb-8 subheader_2'>
                 {item.title}
               </div>

@@ -16,12 +16,12 @@ import img1 from '@/public/images/hero_1.jpg'
 export default function MilestoneTabs() {
     const [activeTab, setActiveTab] = useState(0);
   return (
-    <div className='flex felx-row w-6/12 m-auto'>
+    <div className='flex felx-row w-6/12 mt-12 mx-auto'>
         <Tabs value={activeTab} orientation="vertical">
             <TabsHeader
                 className="flex-col w-56 rounded-none border-r border-blue-gray-50 bg-transparent p-0"
                 indicatorProps={{
-                className: "bg-transparent border-r-2 border-blue-500 shadow-none rounded-none",
+                className: "bg-transparent border-r-2 shadow-none rounded-none",
                 }}
             >
                 <div className='text-white font-body text-3xl text-right pr-4 pb-4'>MILESTONES</div>
@@ -30,7 +30,7 @@ export default function MilestoneTabs() {
                     key={index}
                     value={index}
                     onClick={() => setActiveTab(index)}
-                    className={`text-body text-lg text-right justify-end ${activeTab === index ? "text-yellow" : "text-white"}`}
+                    className={`font-body text-lg text-right leading-tight justify-end p-2 ${activeTab === index ? "text-yellow" : "text-white"}`}
                 >
                     {item.title}
                 </Tab>
@@ -39,10 +39,10 @@ export default function MilestoneTabs() {
             <TabsBody>
                 {data.items.map((item, index) => (
                 <TabPanel key={index} value={index} className="h-full text-white">
-                    <div className='relative h-full p-6 rounded-lg'>
-                        <div className="w-full h-full absolute top-0 left-0 rounded-lg">
-                            <Image alt="/" src={img1} fill={true} style={{objectFit: "cover"}} className='rounded-lg'/>   
-                            <div className='absolute top-0 left-0 right-0 bottom-0 bg-[#000F34]/50 backdrop-blur-sm rounded-lg' />
+                    <div className='relative h-full p-6 rounded-lg overflow-hidden'>
+                        <div className="w-full h-full absolute top-0 left-0">
+                            <Image alt="/" src={img1} fill={true} style={{objectFit: "cover"}} className=''/>   
+                            <div className='absolute top-0 left-0 right-0 bottom-0 bg-[#000F34]/50 backdrop-blur-sm' />
                         </div>
                         <div className='flex flex-col relative h-full'>
                             <div className='text-center subheader_1'>

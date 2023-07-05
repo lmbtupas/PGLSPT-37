@@ -7,10 +7,10 @@ export default function AlumniCard({name,position,img}) {
             <Image  alt="/" src={img} fill={true} style={{objectFit: "cover"}}/>
         </div>
         <div className="text-left w-80">
-            <div className="body_text">
+            <div className="text-yellow font-body text-2xl mb-2">
                 {name}
             </div>
-            <div className="body_text">
+            <div className="leading-tight text-white font-body text-lg whitespace-pre-line">
                 {position}
             </div>
         </div>        
