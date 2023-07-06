@@ -1,0 +1,174 @@
+{
+    "events" : [
+        {
+            "month": "August 2023",
+            "event" : [
+                {
+                    "title": "PGLS 37 1st Round Table Discussion",
+                    "date": "August 3, 2023"
+                },
+                {
+                    "title": "PGLS 37 2nd Round Table Discussion",
+                    "date": "August 10, 2023"
+                },
+                {
+                    "title": "Tulong Skwela 2023 Year 3 Launching",
+                    "date": "August 14, 2023"
+                },
+                {
+                    "title": "PGLS 37 3rd Round Table Discussion",
+                    "date": "August 17, 2023"
+                },
+                {
+                    "title": "PGLS 37 4th Round Table Discussion",
+                    "date": "August 22, 2023"
+                },
+                {
+                    "title": "PGLS 37 5th Round Table Discussion",
+                    "date": "August 24, 2023"
+                }
+            ]
+        },
+        {
+            "month": "September 2023",
+            "event" : [
+                {
+                    "title": "Liyab: The Official PGLS Publication Launching",
+                    "date": "September 6, 2023"
+                },
+                {
+                    "title": "PGLS 37 #WeFest 2023: The 1st Semester General Assembly",
+                    "date": "September 18, 2023"
+                },
+                {
+                    "title": "Bilang Bahagi: PGLS 37 Electoral Initiative Launching",
+                    "date": "September 19, 2023"
+                },
+                {
+                    "title": "PGLS 37 #NurtureTheNext: Mentorship Session 1",
+                    "date": "September 21, 2023"
+                }
+            ]
+        },
+        {
+            "month": "October 2023",
+            "event" : [
+                {
+                    "title": "Our Phoenix Prologue: The PGLS 37 Constitutional Plebiscite",
+                    "date": "October 9-11, 2023"
+                },
+                {
+                    "title": "PGLS 37 #NurtureTheNext: Mentorship Session 2",
+                    "date": "October 11, 2023"
+                }
+            ]
+        },
+        {
+            "month": "November 2023",
+            "event" : [
+                {
+                    "title": "PGLS 37 #AralTugonServices: Online Tutorial Sessions",
+                    "date": "November 8, 2023"
+                },
+                {
+                    "title": "PGLS 37 #NurtureTheNext: Mentorship Session 3",
+                    "date": "November 9, 2023"
+                }
+            ]
+        },
+        {
+            "month": "December 2023",
+            "event" : [
+                {
+                    "title": "PGLS 37 #AralTugonServices: Class Recommendations",
+                    "date": "December 6, 2023"
+                },
+                {
+                    "title": "PGLS 37 Pamaskong Handog 2023",
+                    "date": "December 18, 2023"
+                }
+            ]
+        },
+        {
+            "month": "January 2024",
+            "event" : [
+                {
+                    "title": "PGLS 37 #AralTugonServices: Notes / Resources Sharing Catalog",
+                    "date": "January 10, 2023"
+                },
+                {
+                    "title": "PGLS 37 #NurtureTheNext: Mentorship Session 4",
+                    "date": "January 18, 2024"
+                },
+                {
+                    "title": "PGLS 37 2nd Semester General Assembly",
+                    "date": "January 26, 2024"
+                },
+                {
+                    "title": "Layag Pilipinas 2023 Year 3 Launching",
+                    "date": "January 29, 2024"
+                }
+            ]
+        },
+        {
+            "month": "February 2024",
+            "event" : [
+                {
+                    "title": "PGLS 37 #NurtureTheNext: Mentorship Session 5",
+                    "date": "February 2, 2023"
+                },
+                {
+                    "title": "Project Sagana 2023 Year 2",
+                    "date": "February 10, 2024"
+                },
+                {
+                    "title": "PGLS 38th Anniversary Celebration",
+                    "date": "February 23, 2024"
+                }
+            ]
+        },
+        {
+            "month": "March 2024",
+            "event" : [
+                {
+                    "title": "Women's Month Talk",
+                    "date": "March 1, 2024"
+                }
+            ]
+        },
+        {
+            "month": "April 2024",
+            "event" : [
+                {
+                    "title": "PGLS 37 #AralTugonServices: Online Tutorial Sessions",
+                    "date": "April 3, 2024"
+                },
+                {
+                    "title": "Filipino Youth Leadership Program 2023 Year 2 Launching ",
+                    "date": "April 8, 2023"
+                },
+                {
+                    "title": "Phoenix Paragon Awards 2024: The 1st PGLS Awarding Ceremony",
+                    "date": "April 22, 2024"
+                }
+            ]
+        },
+        {
+            "month": "May 2024",
+            "event" : [
+                {
+                    "title": "PGLS 37 #AralTugonServices: Class Recommendations",
+                    "date": "May 8, 2024"
+                },
+                {
+                    "title": "Liyab 1st Official E-Newsletter Publication",
+                    "date": "May 15, 2024"
+                },
+                {
+                    "title": "PGLS 38 Term-Ender Celebration",
+                    "date": "May 18, 2024"
+                }
+            ]
+        }
+    ]
+}

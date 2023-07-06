@@ -1,13 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image"
-import Slider from "@/components/carousel"
+import Slider from "@/components/Carousel"
+import Background from "@/components/Background"
+import img1 from '@/public/images/hero_1.jpg'
 
 export default function About() {
   return (
     <div className="">
-      <section className="flex flex-col items-center justify-center h-screen bg-fixed bg-center bg-cover custom_img">
-        <div className='absolute bg-[#000F34]/80 z-[2] h-screen w-full ' />
-          <div className="z-[3] flex flex-col items-center justify-center mt-[8rem] mb-[2rem]">
+      <section className="flex flex-col items-center justify-center h-screen">
+        <Background bgImg={img1}>
+          <div className="z-[3] flex flex-col items-center justify-center mb-[2rem]">
           <h2 className="text-yellow font-header text-6xl md:text-8xl"> PIGLASAPAT </h2>
           <h3 className="text-white font-header text-xl md:text-3xl text-center" > Pinag-isang Lakas ng Samahan ng mga Progresibong Atenista </h3>
           <div className="body_text w-[50rem] text-justify mt-5">
@@ -17,12 +19,12 @@ export default function About() {
             <p className="mt-5 subheader_1 text-center">This is #PGLS37. We are PIGLASAPAT. </p>
           </div>
         </div>
+        </Background>
       </section>
       
-      <section className="flex flex-col items-center justify-center h-screen bg-fixed bg-center bg-cover custom_img_2">
-        <div className='absolute bg-[#000F34]/80 z-[2] h-screen w-full ' />
+      <section className="flex flex-col items-center justify-center h-screen">
         <div className="flex flex-col items-center justify-center">
-          <div className="z-[3] flex flex-col items-center justify-center mt-[2rem] md:mt-8 md:mb-0">
+          <div className="z-[3] flex flex-col items-center justify-center">
             <h2 className="text-yellow font-header text-6xl md:text-8xl"> Our Pillars  </h2>
             <h2 className="text-white font-header text-xl md:text-3xl text-center uppercase"> A PIGLASAPAT Leader Adheres to the Three Pillars  </h2>
               <Slider />
@@ -30,8 +32,7 @@ export default function About() {
         </div>
       </section>
       
-      <section className="flex flex-col items-center w-full h-auto bg-fixed bg-center bg-cover custom_img">
-        <div className='absolute bg-[#000F34]/80 z-[2] h-[1210px] w-full' />
+      <section className="flex flex-col items-center w-full h-screen">
         <div className="flex flex-col justify-center items-center z-[3] mt-16">
             <div className='text-white font-header text-3xl'>
                 PIGLASAPAT 37
