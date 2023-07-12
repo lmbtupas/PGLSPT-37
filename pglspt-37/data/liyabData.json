@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "title": "Issue #1",
+            "date": "July 12, 2023"
+        },
+        {
+            "title": "Issue #2",
+            "date": "July 22, 2023"
+        },
+        {
+            "title": "Issue #3",
+            "date": "August 2, 2023"
+        }
+    ]
+}
