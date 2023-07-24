@@ -105,22 +105,22 @@ const NavBar = () => {
           :'sm:hidden absolute top-0 left-[-100%] bottom-0 flex justify-center items-center w-full h-screen bg-blue text-center ease-in duration-300'}>
           <ul >
             <li className="p-4 text-2xl hover:text-yellow">
-              <Link href='/'> About </Link>
+              <Link href='/about'> About </Link>
             </li>
             <li className="p-4 text-2xl hover:text-yellow">
-              <Link href='/'> Milestones </Link>
+              <Link href='/milestones'> Milestones </Link>
             </li>
             <li className="p-4 text-2xl hover:text-yellow">
-              <Link href='/'> Officers </Link>
+              <Link href='/officers'> Officers </Link>
             </li>
             <li className="p-4 text-2xl hover:text-yellow">
-              <Link href='/'> Alumni </Link>
+              <Link href='/notable-phoenixes'> Alumni </Link>
             </li>
             <li className="p-4 text-2xl hover:text-yellow">
-              <Link href='/'> Events </Link>
+              <Link href='/events'> Events </Link>
             </li>
             <li className="p-4 text-2xl hover:text-yellow">
-              <Link href='/'> Liyab </Link>
+              <Link href='/liyab'> Liyab </Link>
             </li>
             <ul className='mt-10'>
               <li className='flex gap-10'>

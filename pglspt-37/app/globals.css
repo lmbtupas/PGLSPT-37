@@ -26,19 +26,19 @@
 }
 
 .header_1 {
-  @apply text-yellow font-header text-8xl
+  @apply text-yellow font-header text-7xl lg:text-8xl
 }
 
 .header_2 {
-  @apply text-yellow font-header text-5xl
+  @apply text-yellow font-header text-4xl lg:text-5xl
 }
 
 .subheader_1 {
-  @apply text-white font-header text-3xl
+  @apply text-white font-header text-2xl md:text-3xl
 }
 
 .subheader_2 {
-  @apply text-white font-italic text-3xl
+  @apply text-white font-italic text-2xl md:text-3xl
 }
 
 .body_text {

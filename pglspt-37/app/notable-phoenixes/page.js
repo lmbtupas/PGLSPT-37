@@ -15,7 +15,7 @@ export default function page() {
               <div className='text-center mb-10 subheader_2'>
                 {item.title}
               </div>
-              <div className='flex flex-row flex-wrap justify-center mx-52 gap-14'>
+              <div className='flex flex-row flex-wrap justify-center gap-y-14 gap-x-8'>
               {
                 item.officers.map((item,index)=>(
                   <AlumniCard key={index} name={item.name} position={item.position} img={img1}/>

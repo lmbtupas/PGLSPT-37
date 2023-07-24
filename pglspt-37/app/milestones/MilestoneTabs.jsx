@@ -16,10 +16,10 @@ import img1 from '@/public/images/hero_1.jpg'
 export default function MilestoneTabs() {
     const [activeTab, setActiveTab] = useState(0);
   return (
-    <div className='flex felx-row w-6/12 mt-12 mx-auto'>
+    <div className='2xl:w-1/2 lg:w-2/3 mt-12 mx-auto'>
         <Tabs value={activeTab} orientation="vertical">
             <TabsHeader
-                className="flex-col w-56 rounded-none border-r border-blue-gray-50 bg-transparent p-0"
+                className="w-56 rounded-none border-r border-blue-gray-50 bg-transparent p-0"
                 indicatorProps={{
                 className: "bg-transparent border-r-2 shadow-none rounded-none",
                 }}
