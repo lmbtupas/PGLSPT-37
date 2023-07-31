@@ -8,8 +8,8 @@ import Liyab from './liyab/page'
 export default function Home() {
   return (
     // <Hero />
-  // <About />
+  <About />
   // <Activities />
-  <Liyab />
+  // <Liyab />
   )
 }
