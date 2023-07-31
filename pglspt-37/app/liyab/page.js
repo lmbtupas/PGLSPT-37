@@ -19,7 +19,7 @@ export default function Liyab() {
       <div className='font-header text-center text-7xl text-white mb-14'>
         ARCHIVES
       </div>
-      <div className='flex flex-row flex-wrap justify-center mx-52 gap-8 mb-24'>
+      <div className='flex flex-row flex-wrap justify-center mx-[2rem] md:mx-[5rem] gap-8 mb-24'>
         {
           data.items.map((item,index)=>(
             <LiyabCard key={index} title={item.title} date={item.date} />
