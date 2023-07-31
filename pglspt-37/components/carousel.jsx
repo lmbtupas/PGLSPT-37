@@ -5,7 +5,7 @@ import Image from "next/image";
  
 export default function Slider() {
   return (
-    <div className="max-w-[740px] h-auto mt-5">
+    <div className="max-w-[740px] h-auto">
         <Carousel className="rounded-xl">
         {/* Slide 1*/}
         <div className="relative h-full w-full">
@@ -21,13 +21,13 @@ export default function Slider() {
             <div className="w-3/4 text-center md:w-2/4">
                 <Typography
                 variant="h1"
-                className="mb-4 text-3xl md:text-4xl lg:text-6xl font-header text-yellow"
+                className="text-3xl md:text-4xl lg:text-6xl font-header text-yellow"
                 >
                 People
                 </Typography>
                 <Typography
                 color="white"
-                className="mb-12 font-body text-2xl"
+                className="font-body text-2xl text-justify"
                 >
                 We hone our members to be people equipped with various 
                 capacities and potentials who will remain in mission 
@@ -51,13 +51,13 @@ export default function Slider() {
             <div className="w-3/4 text-center md:w-2/4">
             <Typography
                 variant="h1"
-                className="mb-4 text-3xl md:text-4xl lg:text-6xl font-header text-yellow"
+                className="text-3xl md:text-4xl lg:text-6xl font-header text-yellow"
                 >
                 Passion
                 </Typography>
                 <Typography
                 color="white"
-                className="mb-12 font-body text-2xl"
+                className="font-body text-2xl text-justify"
                 >
                 We keep the fire of our reimagined aspirations 
                 burning from a selfless place of love for the country and for the community.
@@ -80,13 +80,13 @@ export default function Slider() {
             <div className="w-3/4 text-center md:w-2/4">
             <Typography
                 variant="h1"
-                className="mb-4 text-3xl md:text-4xl lg:text-6xl font-header text-yellow"
+                className="text-3xl md:text-4xl lg:text-6xl font-header text-yellow"
                 >
                 Principles
                 </Typography>
                 <Typography
                 color="white"
-                className="mb-12 font-body text-2xl"
+                className="font-body text-2xl text-justify"
                 >
                 We ground ourselves on our core principles of active non-violence, 
                 authentic Christian humanism, liberating faith, 
