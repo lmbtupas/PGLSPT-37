@@ -19,7 +19,7 @@ export default function Activities() {
             {item.month}
           </div>
           <div>
-          <div className='flex flex-row flex-wrap justify-center mx-52 gap-8'>
+          <div className='flex flex-row flex-wrap justify-center mx-4 gap-8'>
             {
               item.event.map((item,index)=>(
                 <EventCard key={index} title={item.title} date={item.date} />
