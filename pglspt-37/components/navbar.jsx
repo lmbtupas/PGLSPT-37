@@ -41,22 +41,22 @@ const NavBar = () => {
         </Link>
 
         <ul style={{color: `${textColor}`}} className="hidden sm:flex gap-4">
-          <li className="p-4 text-xl">
+          <li className="p-4 text-xl hover:text-yellow">
             <Link href='/about'> About </Link>
           </li>
-          <li className="p-4 text-xl">
+          <li className="p-4 text-xl hover:text-yellow">
             <Link href='/milestones'> Milestones </Link>
           </li>
-          <li className="p-4 text-xl">
+          <li className="p-4 text-xl hover:text-yellow">
             <Link href='/officers'> Officers </Link>
           </li>
-          <li className="p-4 text-xl">
+          <li className="p-4 text-xl hover:text-yellow">
             <Link href='/notable-phoenixes'> Alumni </Link>
           </li>
-          <li className="p-4 text-xl">
+          <li className="p-4 text-xl hover:text-yellow">
             <Link href='/activities'> Activities </Link>
           </li>
-          <li className="p-4 text-xl">
+          <li className="p-4 text-xl hover:text-yellow">
             <Link href='/liyab'> Liyab </Link>
           </li>
         </ul>
