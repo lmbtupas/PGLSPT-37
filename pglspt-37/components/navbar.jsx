@@ -30,7 +30,7 @@ const NavBar = () => {
   return (
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-[4] ease-in duration-300'>
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white font-body'>
-        <Link href='/'>
+        <Link href='/hero'>
           <Image
               src="/images/PIGLAS_LOGO.png"
               width={100}

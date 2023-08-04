@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 import DropDown from '@/components/Dropdown';
+import Background from '@/components/Background';
+import img1 from '@/public/images/hero_1.jpg'
 
-const Hero = () => {
+export default function Hero() {
     return (
-        <div className="flex flex-col items-center justify-center h-screen bg-fixed bg-center bg-cover custom_img">
-            {/* Overlay */}
-            <div className='absolute top-0 left-0 right-0 bottom-0 bg-[#000F34]/80 z-[2] h-screen' />
+        <Background bgImg={img1}>
             <div className='flex flex-col z-[2] justify-center items-center'>
                 <div className='text-white font-header text-3xl'>
                     PIGLASAPAT 37
@@ -31,8 +31,7 @@ const Hero = () => {
                     <DropDown />
                 </div>
             </div>
-        </div>
+        </Background>
     )
 }
-
-export default Hero
+  
