@@ -1,6 +1,6 @@
 import Background from '@/components/Background';
 import ProfileCard from '@/components/ProfileCard';
-import data from '@/data/executiveBoardData.json'
+import {executiveBoardData} from '@/data/executiveBoardData.js'
 import img1 from '@/public/images/hero_1.jpg'
 
 export default function page() {
@@ -11,8 +11,8 @@ export default function page() {
       </div>
       <div className='flex flex-row flex-wrap justify-center mb-16 gap-14 mx-28 xl:mx-52'>
         {
-          data.officers.map((item,index)=>(
-            <ProfileCard key={index} name={item.name} position={item.position} img={img1}/>
+          executiveBoardData.map((item,index)=>(
+            <ProfileCard key={index} name={item.name} position={item.position} img={item.img}/>
           ))
         }
       </div>

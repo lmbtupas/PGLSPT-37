@@ -9,11 +9,11 @@ import Rosales from "@/public/images/officers/Rosales.jpg"
 import Lantajo from "@/public/images/officers/Lantajo.jpg"
 import Domingo from "@/public/images/officers/Domingo.jpg"
 import Castaritas from "@/public/images/officers/Castaritas.jpg"
-import Salazar from "@/public/images/officers/Salazar.jpg"
+import Salazar from "@/public/images/officers/Ang.jpg"
 import Jamila from "@/public/images/officers/Jamila.jpg"
 import Lestojas from "@/public/images/officers/Lestojas.jpg"
 import Lantingan from "@/public/images/officers/Lantingan.jpg"
-import Garcenila from "@/public/images/officers/Garcenila.jpg"
+import Gracenila from "@/public/images/officers/Gracenila.jpg"
 import Ruiz from "@/public/images/officers/Ruiz.jpg"
 import Bartolome from "@/public/images/officers/Bartolome.jpg"
 import Batoon from "@/public/images/officers/Batoon.jpg"
@@ -33,19 +33,19 @@ import Dy from "@/public/images/officers/Dy.jpg"
 import Olaso from "@/public/images/officers/Olaso.jpg"
 import Dacera from "@/public/images/officers/Dacera.jpg"
 import Kabalu from "@/public/images/officers/Kabalu.jpg"
-import Santos from "@/public/images/officers/Santos.jpg"
+import DelosSantos from "@/public/images/officers/DelosSantos.jpg"
 import Arcala from "@/public/images/officers/Arcala.jpg"
 import Magsigay from "@/public/images/officers/Magsigay.jpg"
 import Veneracion from "@/public/images/officers/Veneracion.jpg"
 import Jayectin from "@/public/images/officers/Jayectin.jpg"
 import Yncierto from "@/public/images/officers/Yncierto.jpg"
-import Calzada from "@/public/images/officers/Calzada.jpg"
+import Calzada from "@/public/images/officers/Ang.jpg"
 import Guba from "@/public/images/officers/Guba.jpg"
-import Hamdain from "@/public/images/officers/Hamdain.jpg"
+import Hamdain from "@/public/images/officers/Ang.jpg"
 import Mesiona from "@/public/images/officers/Mesiona.jpg"
 import Miranda from "@/public/images/officers/Miranda.jpg"
 import Gomez from "@/public/images/officers/Gomez.jpg"
-import Bacalso from "@/public/images/officers/Bacalso.jpg"
+import Bacalso from "@/public/images/officers/Ang.jpg"
 import Amarga from "@/public/images/officers/Amarga.jpg"
 import Zacaria from "@/public/images/officers/Zacaria.jpg"
 import Hayashiyama from "@/public/images/officers/Hayashiyama.jpg"
@@ -155,9 +155,9 @@ export const deputiesDepartmentData = [
                 "img":Lantingan
             },
             {
-                "name": "Zoe Garcenila",
+                "name": "Zoe Gracenila",
                 "position": "Data Analytics Deputy Director",
-                "img":Garcenila
+                "img":Gracenila
             },
             {
                 "name": "Charles Andrew Ruiz",
@@ -277,7 +277,7 @@ export const deputiesDepartmentData = [
             {
                 "name": "Jayne Marie Delos Santos",
                 "position": "Creatives Director",
-                "img":Santos
+                "img":DelosSantos
             },
             {
                 "name": "Ces Ruelene Arcala",
