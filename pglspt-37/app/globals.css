@@ -42,9 +42,30 @@
 }
 
 .body_text {
-  @apply text-white font-body text-lg
+  @apply text-white font-body text-base md:text-lg
 }
 
 .btn {
   @apply bg-white rounded-lg py-2 px-3 font-body text-blue
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0A57A7;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FFC705;
 }

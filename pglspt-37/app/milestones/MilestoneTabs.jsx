@@ -7,41 +7,55 @@ import {
     Tab,
     TabPanel,
   } from "@material-tailwind/react";
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Image from "next/image";
 import Link from 'next/link';
-import data from '@/data/milestonesData.json'
-import img1 from '@/public/images/hero_1.jpg'
+import { milestonesData } from '@/data/milestonesData.js'
 
 export default function MilestoneTabs() {
     const [activeTab, setActiveTab] = useState(0);
+    const [matches, setMatches] = useState(true);
+
+    useEffect(() => {
+        const query = "(min-width: 540px)";
+        const media = window.matchMedia(query);
+        if (media.matches !== matches) {
+            setMatches(media.matches);
+        }
+        const listener = () => {setMatches(media.matches);}
+        window.addEventListener('resize', listener);
+        return () => {
+            window.removeEventListener('resize', listener);
+        }
+    }, [matches]);
+
   return (
-    <div className='2xl:w-1/2 lg:w-2/3 mt-12 mx-auto'>
-        <Tabs value={activeTab} orientation="vertical">
+    <div className='w-full p-5 lg:w-2/3 2xl:w-1/2 pt-10 mx-auto'>
+        <Tabs value={activeTab} orientation={matches ? "vertical" : "horizontal"}>
             <TabsHeader
-                className="w-56 rounded-none border-r border-blue-gray-50 bg-transparent p-0"
+                className="md:w-56 h-full overflow-x-auto rounded-none sm:border-r border-blue-gray-50 bg-transparent p-0 flex flex-row sm:flex-col"
                 indicatorProps={{
-                className: "bg-transparent border-r-2 shadow-none rounded-none",
+                className: "bg-transparent sm:border-r-2 shadow-none rounded-none",
                 }}
             >
-                <div className='text-white font-body text-3xl text-right pr-4 pb-4'>MILESTONES</div>
-                {data.items.map((item, index) => (
+                { matches && <div className='text-white font-body text-2xl md:text-3xl text-right pr-4 pb-4'>MILESTONES</div>}
+                {milestonesData.map((item, index) => (
                 <Tab
                     key={index}
                     value={index}
                     onClick={() => setActiveTab(index)}
-                    className={`font-body text-lg text-right leading-tight justify-end p-2 ${activeTab === index ? "text-yellow" : "text-white"}`}
+                    className={`font-body h-auto sm:w-full text-md md:text-lg sm:text-right leading-tight sm:justify-end p-2 ${activeTab === index ? "text-yellow" : "text-white"}`}
                 >
-                    {item.title}
+                    <p>{item.title}</p>
                 </Tab>
                 ))}
             </TabsHeader>
             <TabsBody>
-                {data.items.map((item, index) => (
-                <TabPanel key={index} value={index} className="h-full text-white">
+                {milestonesData.map((item, index) => (
+                <TabPanel key={index} value={index} className="h-full text-white px-0 sm:px-6">
                     <div className='relative h-full p-6 rounded-lg overflow-hidden'>
                         <div className="w-full h-full absolute top-0 left-0">
-                            <Image alt="/" src={img1} fill={true} style={{objectFit: "cover"}} className=''/>   
+                            <Image alt="/" src={item.img} fill={true} style={{objectFit: "cover"}} className=''/>   
                             <div className='absolute top-0 left-0 right-0 bottom-0 bg-[#000F34]/50 backdrop-blur-sm' />
                         </div>
                         <div className='flex flex-col relative h-full'>
@@ -54,7 +68,7 @@ export default function MilestoneTabs() {
                             <div className='body_text'>
                                 {item.text}
                             </div>
-                                <Link href='/' className='self-end mt-auto'>
+                                <Link href={item.link} className='self-end mt-auto'>
                                     <Image
                                         src="/images/arrow_button.png"
                                         width={35}
