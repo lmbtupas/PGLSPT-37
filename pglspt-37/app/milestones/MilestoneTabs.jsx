@@ -68,7 +68,7 @@ export default function MilestoneTabs() {
                             <div className='body_text'>
                                 {item.text}
                             </div>
-                                <Link href={item.link} className='self-end mt-auto'>
+                                <Link href={item.link} className='self-end mt-auto' rel="noopener noreferrer" target="_blank">
                                     <Image
                                         src="/images/arrow_button.png"
                                         width={35}

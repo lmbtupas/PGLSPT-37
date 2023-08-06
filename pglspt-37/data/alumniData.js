@@ -13,6 +13,8 @@ import Pang from "@/public/images/notableAlumni/Pang.jpeg"
 import Macaraeg from "@/public/images/notableAlumni/Macaraeg.jpeg"
 import Pinzon from "@/public/images/notableAlumni/Pinzon.jpeg"
 import Sinsuat from "@/public/images/notableAlumni/Sinsuat.jpg"
+import Huerbana from "@/public/images/notableAlumni/Huerbana.jpg"
+import Galicia from "@/public/images/notableAlumni/Galicia.jpeg"
 
 
 
@@ -44,7 +46,7 @@ export const alumniData = [
             {
                 "name": "Jerry Louise Huerbana",
                 "position": "SAMAHAN President 2018-2019",
-                "img": Cayona
+                "img": Huerbana
             }
         ]
     },
@@ -59,7 +61,7 @@ export const alumniData = [
             {
                 "name": "Miles Galicia",
                 "position": "Valedictorian, Batch 2017",
-                "img": Cayona
+                "img": Galicia
             },
             {
                 "name": "Kurt Sabate",
