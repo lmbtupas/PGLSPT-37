@@ -2,13 +2,13 @@
 import Image from "next/image"
 import Slider from "@/components/Carousel"
 import Background from "@/components/Background"
-import img1 from '@/public/images/hero_1.jpg'
+import bg from '@/public/images/backgroundImages/aboutbg.jpg'
 
 export default function About() {
   return (
     <div className="">
       <section className="flex flex-col items-center justify-center">
-        <Background bgImg={img1}>
+        <Background bgImg={bg}>
           <div className="z-[3] flex flex-col items-center justify-center">
             <h2 className="text-yellow font-header text-6xl md:text-8xl"> PIGLASAPAT </h2>
             <h3 className="text-white font-header text-xl md:text-3xl text-center uppercase" > Pinag-isang Lakas ng Samahan ng mga Progresibong Atenista </h3>

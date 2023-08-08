@@ -1,14 +1,14 @@
 'use client'
 
 import Background from '@/components/Background';
-import img1 from '@/public/images/hero_1.jpg'
+import bg from '@/public/images/backgroundImages/activitiesbg.jpg'
 import EventCard from './EventCard';
 import data from '@/data/eventData.json'
 import Image from 'next/image';
 
 export default function Activities() {
   return (
-    <Background bgImg={img1}>
+    <Background bgImg={bg}>
       <div className='header_2 text-center mt-12 mb-24'>
         UPCOMING ACTIVITIES
       </div>

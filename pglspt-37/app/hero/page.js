@@ -1,12 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import DropDown from '@/components/Dropdown';
 import Background from '@/components/Background';
-import img1 from '@/public/images/hero_1.jpg'
+import bg from '@/public/images/backgroundImages/herobg.jpg';
 
 export default function Hero() {
     return (
-        <Background bgImg={img1}>
+        <Background bgImg={bg}>
             <div className='flex flex-col z-[2] justify-center items-center'>
                 <div className='text-white font-header text-3xl'>
                     PIGLASAPAT 37
@@ -23,12 +22,18 @@ export default function Hero() {
                     />
                 </div>
 
-                <div className='text-white text-center font-body text-lg sm:w-[40rem] sm:px-5 mt-8 '>
+                <div className='text-white text-center font-body text-xl w-[30rem] md:w-[40rem] mt-6 '>
                     Today, we no longer wait for the perfect chances. We no longer sit idle in anticipation for change. Together, we chase our purpose.
                 </div>
 
-                <div className='mt-5'>
-                    <DropDown />
+                <div className='flex flex-col w-[20rem]'>
+                    <button class="bg-white text-blue text-xl font-bold py-2 px-4 rounded z-[2] mt-6">
+                        For 1st Years
+                    </button>
+
+                    <button class="bg-white text-blue text-xl font-bold py-2 px-4 rounded z-[2] mt-6">
+                        For 2nd-5th Years
+                    </button>
                 </div>
             </div>
         </Background>
