@@ -26,6 +26,10 @@ export default function Hero() {
                     Today, we no longer wait for the perfect chances. We no longer sit idle in anticipation for change. Together, we chase our purpose.
                 </div>
 
+                <div className='header_2 text-2xl mt-6 '>
+                    Be a Member Now
+                </div>
+
                 <div className='flex flex-col w-[20rem]'>
                     <button class="bg-white text-blue text-xl font-bold py-2 px-4 rounded z-[2] mt-6">
                         For 1st Years

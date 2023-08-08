@@ -10,14 +10,14 @@ export default function Slider() {
         {/* Slide 1*/}
         <div className="relative h-full w-full">
             <Image
-                src="/images/hero_1.jpg"
+                src="/images/carousel_1.jpg"
                 alt="image 1"
                 width={1440}
                 height={840}
                 style={{objectFit:"cover"}}
                 className="blur"
             />
-            <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
+            <div className="absolute inset-0 grid h-full w-full place-items-center bg-blue/50">
             <div className="w-3/4 text-center md:w-2/4">
                 <Typography
                 variant="h1"
@@ -40,14 +40,14 @@ export default function Slider() {
         {/* Slide 2 */}
         <div className="relative h-full w-full">
             <Image
-                src="/images/hero_2.jpg"
-                alt="image 1"
+                src="/images/carousel2.jpg"
+                alt="image 2"
                 width={1440}
                 height={840}
                 style={{objectFit:"cover"}}
                 className="blur"
             />
-            <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
+            <div className="absolute inset-0 grid h-full w-full place-items-center bg-blue/50">
             <div className="w-3/4 text-center md:w-2/4">
             <Typography
                 variant="h1"
@@ -69,14 +69,14 @@ export default function Slider() {
         {/* Slide 3 */}
         <div className="relative h-full w-full">
             <Image
-                src="/images/hero_1.jpg"
-                alt="image 1"
+                src="/images/carousel_3.jpg"
+                alt="image 3"
                 width={1440}
                 height={840}
                 style={{objectFit:"cover"}}
                 className="blur"
             />
-            <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
+            <div className="absolute inset-0 grid h-full w-full place-items-center bg-blue/50">
             <div className="w-3/4 text-center md:w-2/4">
             <Typography
                 variant="h1"
