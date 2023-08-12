@@ -63,7 +63,7 @@ const NavBar = () => {
 
         <ul className='lg:flex gap-8 hidden '>
           <li>
-            <Link href='/'>
+            <Link href='https://www.facebook.com/ateneopiglas'>
               <Image
                   src="/images/facebook.png"
                   width={35}
@@ -73,7 +73,7 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link href='/'>
+            <Link href='https://twitter.com/ateneopiglas'>
               <Image
                   src="/images/twitter.png"
                   width={35}
@@ -83,7 +83,7 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link href='/'>
+            <Link href='ttps://www.instagram.com/ateneopiglas'>
               <Image
                   src="/images/instagram.png"
                   width={35}
@@ -124,7 +124,7 @@ const NavBar = () => {
             </li>
             <ul className='mt-10'>
               <li className='flex gap-10'>
-                <Link href='/'>
+              <Link href='https://www.facebook.com/ateneopiglas'>
                   <Image
                       src="/images/facebook.png"
                       width={35}
@@ -132,7 +132,7 @@ const NavBar = () => {
                       alt="facebook"
                   />
                 </Link>
-                <Link href='/'>
+                <Link href='https://twitter.com/ateneopiglas'>
                   <Image
                       src="/images/twitter.png"
                       width={35}
@@ -140,7 +140,7 @@ const NavBar = () => {
                       alt="twitter"
                   />
                 </Link>
-                <Link href='/'>
+                <Link href='ttps://www.instagram.com/ateneopiglas'>
                   <Image
                       src="/images/instagram.png"
                       width={35}

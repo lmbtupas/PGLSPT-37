@@ -31,13 +31,13 @@ export default function Hero() {
                 </div>
 
                 <div className='flex flex-col w-[20rem]'>
-                    <button class="bg-white text-blue text-xl font-bold py-2 px-4 rounded z-[2] mt-6">
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSf9ovEkYDHVLfIIbj26Wv2HQv5m1Y1y6IzECKiG16p39p5EUA/viewform' class="bg-white text-blue text-xl text-center font-bold py-2 px-4 rounded-lg z-[2] mt-6">
                         For 1st Years
-                    </button>
+                    </a>
 
-                    <button class="bg-white text-blue text-xl font-bold py-2 px-4 rounded z-[2] mt-6">
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSfMtjaGgQnbntPFAwg63qqzre7hgVXeSMx0ovVSNSntmOWZaQ/viewform' class="bg-white text-blue text-xl text-center font-bold py-2 px-4 rounded-lg z-[2] mt-6">
                         For 2nd-5th Years
-                    </button>
+                    </a>
                 </div>
             </div>
         </Background>
