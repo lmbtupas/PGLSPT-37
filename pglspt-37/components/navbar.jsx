@@ -65,7 +65,7 @@ const NavBar = () => {
 
         <ul className='lg:flex gap-8 hidden '>
           <li>
-            <Link href='https://www.facebook.com/ateneopiglas'>
+            <Link href='https://www.facebook.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
               <Image
                   src="/images/facebook.png"
                   width={35}
@@ -75,7 +75,7 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link href='https://twitter.com/ateneopiglas'>
+            <Link href='https://twitter.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
               <Image
                   src="/images/twitter.png"
                   width={35}
@@ -85,7 +85,7 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link href='ttps://www.instagram.com/ateneopiglas'>
+            <Link href='ttps://www.instagram.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
               <Image
                   src="/images/instagram.png"
                   width={35}
@@ -126,7 +126,7 @@ const NavBar = () => {
             </li>
             <ul className='mt-10'>
               <li className='flex gap-10'>
-              <Link href='https://www.facebook.com/ateneopiglas'>
+              <Link href='https://www.facebook.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
                   <Image
                       src="/images/facebook.png"
                       width={35}
@@ -134,7 +134,7 @@ const NavBar = () => {
                       alt="facebook"
                   />
                 </Link>
-                <Link href='https://twitter.com/ateneopiglas'>
+                <Link href='https://twitter.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
                   <Image
                       src="/images/twitter.png"
                       width={35}
@@ -142,7 +142,7 @@ const NavBar = () => {
                       alt="twitter"
                   />
                 </Link>
-                <Link href='ttps://www.instagram.com/ateneopiglas'>
+                <Link href='ttps://www.instagram.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
                   <Image
                       src="/images/instagram.png"
                       width={35}
