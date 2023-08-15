@@ -10,8 +10,8 @@ export default function About() {
       <section className="flex flex-col items-center justify-center">
         <Background bgImg={bg}>
           <div className="z-[3] flex flex-col items-center justify-center">
-            <h2 className="text-yellow font-header text-6xl md:text-8xl"> PIGLASAPAT </h2>
-            <h3 className="text-white font-header text-xl md:text-3xl text-center uppercase" > Pinag-isang Lakas ng Samahan ng mga Progresibong Atenista </h3>
+            <h2 className="header_1"> PIGLASAPAT </h2>
+            <h3 className="subheader_1 text-center uppercase" > Pinag-isang Lakas ng Samahan ng mga Progresibong Atenista </h3>
             <div className="body_text w-[25rem] md:w-[40rem] lg:w-[50rem] text-justify mt-5">
               <p className="mt-3"> The Pinag-isang Lakas ng Samahan ng mga Progresibong Atenista or PIGLASAPAT is the longest-running and premier socio-civic and political organization of Ateneo de Davao University established in 1986. </p>
               <p className="mt-3">Formed during times of national distress brought by Martial Law, the organization has propelled resilience over the past decades. It became a leading voice that echoed the students' call for social justice. </p>
@@ -25,8 +25,8 @@ export default function About() {
       <section className="flex flex-col items-center justify-center mt-[2rem] md:mt-[5rem]">
         <div className="flex flex-col items-center justify-center mt-20 md:mt-1">
           <div className="z-[3] flex flex-col items-center justify-center">
-            <h2 className="text-yellow font-header text-6xl md:text-8xl"> Our Pillars </h2>
-            <h2 className="text-white font-header text-xl md:text-3xl text-center uppercase"> A PIGLASAPAT Leader Adheres to the Three Pillars  </h2>
+            <h2 className="header_1"> Our Pillars </h2>
+            <h2 className="subheader_1 text-center uppercase"> A PIGLASAPAT Leader Adheres to the Three Pillars  </h2>
               <div className="p-2">
                 <Slider />
               </div>

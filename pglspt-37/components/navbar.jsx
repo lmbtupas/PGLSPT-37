@@ -31,16 +31,18 @@ const NavBar = () => {
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-[4] ease-in duration-300'>
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white font-body'>
         <Link href='/hero'>
-          <Image
-              src="/images/PIGLAS_LOGO.png"
-              width={100}
-              height={100}
-              alt="PIGLAS Logo"
-              unoptimized
-            />
+          <div className='min-w-[4rem]'>
+            <Image
+                src="/images/PIGLAS_LOGO.png"
+                width={100}
+                height={100}
+                alt="PIGLAS Logo"
+                unoptimized
+              />
+          </div>          
         </Link>
 
-        <ul style={{color: `${textColor}`}} className="hidden sm:flex gap-4">
+        <ul style={{color: `${textColor}`}} className="hidden lg:flex px-4 gap-4">
           <li className="p-4 text-xl hover:text-yellow">
             <Link href='/about'> About </Link>
           </li>
@@ -95,14 +97,14 @@ const NavBar = () => {
         </ul>
 
         {/*Mobile Button */}
-        <div onClick={handleNav} className="block sm:hidden z-10" >
+        <div onClick={handleNav} className="block lg:hidden z-10" >
           {nav ? <AiOutlineClose size={30} style={{color: `${textColor}`}} /> : <AiOutlineMenu size={30} style={{color: `${textColor}`}} />}
         </div>
 
         {/*Mobile Menu */}
         <div className={nav ? 
-          'sm:hidden absolute top-0 left-0 bottom-0 flex justify-center items-center w-full h-screen bg-blue text-center ease-in duration-300' 
-          :'sm:hidden absolute top-0 left-[-100%] bottom-0 flex justify-center items-center w-full h-screen bg-blue text-center ease-in duration-300'}>
+          'lg:hidden absolute top-0 left-0 bottom-0 flex justify-center items-center w-full h-screen bg-blue text-center ease-in duration-300' 
+          :'lg:hidden absolute top-0 left-[-100%] bottom-0 flex justify-center items-center w-full h-screen bg-blue text-center ease-in duration-300'}>
           <ul >
             <li className="p-4 text-2xl hover:text-yellow">
               <Link href='/about'> About </Link>
