@@ -117,7 +117,7 @@ const NavBar = () => {
               <Link href='/notable-phoenixes'> Alumni </Link>
             </li>
             <li className="p-4 text-2xl hover:text-yellow">
-              <Link href='/events'> Events </Link>
+              <Link href='/activities'> Activities </Link>
             </li>
             <li className="p-4 text-2xl hover:text-yellow">
               <Link href='/liyab'> Liyab </Link>
