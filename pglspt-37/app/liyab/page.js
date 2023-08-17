@@ -21,7 +21,7 @@ export default function Liyab() {
       <div className='flex flex-row flex-wrap justify-center mx-[2rem] md:mx-[5rem] gap-8 mb-24'>
         {
           data.items.map((item,index)=>(
-            <LiyabCard key={index} title={item.title} date={item.date} />
+            <LiyabCard key={index} title={item.title} date={item.date} link={item.link} />
           ))
         }
       </div>
