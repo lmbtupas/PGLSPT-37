@@ -22,12 +22,12 @@ export default function Hero() {
                     />
                 </div>
 
-                <div className='text-white text-center font-body text-xl w-[30rem] md:w-[40rem] mt-6 '>
+                <div className='text-white text-center font-body text-xl w-[20rem] md:w-[40rem] mt-6'>
                     Today, we no longer wait for the perfect chances. We no longer sit idle in anticipation for change. Together, we chase our purpose.
                 </div>
 
                 <div className='header_2 text-2xl mt-6 '>
-                    Be a Member Now
+                    Be a member now!
                 </div>
 
                 <div className='flex flex-col w-[20rem]'>

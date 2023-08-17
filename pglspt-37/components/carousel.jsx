@@ -5,7 +5,7 @@ import Image from "next/image";
  
 export default function Slider() {
   return (
-    <div className="max-w-[740px] h-auto">
+    <div className="w-[740px] h-auto">
         <Carousel className="rounded-xl">
         {/* Slide 1*/}
         <div className="relative h-full w-full">
@@ -15,9 +15,9 @@ export default function Slider() {
                 width={1440}
                 height={840}
                 style={{objectFit:"cover"}}
-                className="blur"
+                // className="blur"
             />
-            <div className="absolute inset-0 grid h-full w-full place-items-center bg-blue/50">
+            <div className="absolute inset-0 grid h-full w-full place-items-center bg-[#172554]/50">
             <div className="w-3/4 text-center md:w-2/4">
                 <Typography
                 variant="h1"
@@ -27,7 +27,7 @@ export default function Slider() {
                 </Typography>
                 <Typography
                 color="white"
-                className="font-body text-2xl text-justify"
+                className="font-body text-md md:text-2xl text-justify"
                 >
                 We hone our members to be people equipped with various 
                 capacities and potentials who will remain in mission 
@@ -45,9 +45,9 @@ export default function Slider() {
                 width={1440}
                 height={840}
                 style={{objectFit:"cover"}}
-                className="blur"
+                // className="blur"
             />
-            <div className="absolute inset-0 grid h-full w-full place-items-center bg-blue/50">
+            <div className="absolute inset-0 grid h-full w-full place-items-center bg-[#172554]/50">
             <div className="w-3/4 text-center md:w-2/4">
             <Typography
                 variant="h1"
@@ -57,7 +57,7 @@ export default function Slider() {
                 </Typography>
                 <Typography
                 color="white"
-                className="font-body text-2xl text-justify"
+                className="font-body text-md md:text-2xl text-justify"
                 >
                 We keep the fire of our reimagined aspirations 
                 burning from a selfless place of love for the country and for the community.
@@ -74,9 +74,9 @@ export default function Slider() {
                 width={1440}
                 height={840}
                 style={{objectFit:"cover"}}
-                className="blur"
+                // className="blur"
             />
-            <div className="absolute inset-0 grid h-full w-full place-items-center bg-blue/50">
+            <div className="absolute inset-0 grid h-full w-full place-items-center bg-[#172554]/50">
             <div className="w-3/4 text-center md:w-2/4">
             <Typography
                 variant="h1"
@@ -86,7 +86,7 @@ export default function Slider() {
                 </Typography>
                 <Typography
                 color="white"
-                className="font-body text-2xl text-justify"
+                className="font-body text-md md:text-2xl text-justify"
                 >
                 We ground ourselves on our core principles of active non-violence, 
                 authentic Christian humanism, liberating faith, 
