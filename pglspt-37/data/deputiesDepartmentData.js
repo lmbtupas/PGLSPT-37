@@ -13,7 +13,7 @@ import Salazar from "@/public/images/officers/Salazar.jpeg"
 import Jamila from "@/public/images/officers/Jamila.jpg"
 import Lestojas from "@/public/images/officers/Lestojas.jpg"
 import Lantingan from "@/public/images/officers/Lantingan.jpg"
-import Gracenila from "@/public/images/officers/Gracenila.jpg"
+import Garcenila from "@/public/images/officers/Gracenila.jpg"
 import Ruiz from "@/public/images/officers/Ruiz.jpg"
 import Bartolome from "@/public/images/officers/Bartolome.jpg"
 import Batoon from "@/public/images/officers/Batoon.jpg"
@@ -39,7 +39,7 @@ import Magsigay from "@/public/images/officers/Magsigay.jpg"
 import Veneracion from "@/public/images/officers/Veneracion.jpg"
 import Jayectin from "@/public/images/officers/Jayectin.jpg"
 import Yncierto from "@/public/images/officers/Yncierto.jpg"
-import Calzada from "@/public/images/officers/Calzada.jpg"
+import Calzada from "@/public/images/officers/Calzada.jpeg"
 import Guba from "@/public/images/officers/Guba.jpg"
 import Hamdain from "@/public/images/officers/Ang.jpg"
 import Mesiona from "@/public/images/officers/Mesiona.jpg"
@@ -65,7 +65,7 @@ export const deputiesDepartmentData = [
                 "img":Utay
             },
             {
-                "name": "Aleah Nisha Hyacinthe Carungay",
+                "name": "Aleah Nisha Carungay",
                 "position": "Executive Undersecretary",
                 "img":Carungay
             }
@@ -75,7 +75,7 @@ export const deputiesDepartmentData = [
         "title" : "Deputies to the Office of the Internal Vice-President",
         "officers" : [
             {
-                "name": "Lyana Daniel Angela Castillo",
+                "name": "Lyana Daniel Castillo",
                 "position": "Internal Secretary",
                 "img":Castillo
             },
@@ -105,7 +105,7 @@ export const deputiesDepartmentData = [
         "title" : "Deputies to the Office of the Secretary-General",
         "officers" : [
             {
-                "name": "Ruezza Maree Rosales",
+                "name": "Ruezza Rosales",
                 "position": "Administrative Secretary",
                 "img":Rosales
             },
@@ -120,12 +120,12 @@ export const deputiesDepartmentData = [
         "title" : "Deputies to the Office of the Treasurer",
         "officers" : [
             {
-                "name": "Sean Raymond Domingo",
+                "name": "Sean Domingo",
                 "position": "Finance Secretary",
                 "img":Domingo
             },
             {
-                "name": "Althea Francoise Castaritas",
+                "name": "Althea Castaritas",
                 "position": "Finance Undersecretary",
                 "img":Castaritas
             }
@@ -150,14 +150,14 @@ export const deputiesDepartmentData = [
                 "img":Lestojas
             },
             {
-                "name": "Ayn Cherish Lantingan",
+                "name": "Ayn Lantingan",
                 "position": "Data Analytics Director",
                 "img":Lantingan
             },
             {
-                "name": "Zoe Gracenila",
+                "name": "Zoe Garcenila",
                 "position": "Data Analytics Deputy Director",
-                "img":Gracenila
+                "img":Garcenila
             },
             {
                 "name": "Charles Andrew Ruiz",
@@ -180,22 +180,22 @@ export const deputiesDepartmentData = [
         "title" : "Department Directors of the Internal Vice-President",
         "officers" : [
             {
-                "name": "Samantha Chynna Capin",
+                "name": "Samantha Capin",
                 "position": "Mentorships Director",
                 "img":Capin
             },
             {
-                "name": "Angelica Louise Rivamonte",
+                "name": "Angelica Rivamonte",
                 "position": "Mentorships Deputy Director",
                 "img":Rivamonte
             },
             {
-                "name": "Ma. Helena Angela Serrano",
+                "name": "Ma. Helena Serrano",
                 "position": "Academic Affairs Director",
                 "img":Serrano
             },
             {
-                "name": "Mikaela Juliana Franco",
+                "name": "Mikaela Franco",
                 "position": "Academic Affairs Deputy Director",
                 "img":Franco
             },
@@ -230,7 +230,7 @@ export const deputiesDepartmentData = [
                 "img":Borres
             },
             {
-                "name": "Samantha Marie Lacuna",
+                "name": "Samantha Lacuna",
                 "position": "Publications Deputy Director / Associate Editor-in-Chief",
                 "img":Lacuna
             },
@@ -275,7 +275,7 @@ export const deputiesDepartmentData = [
         "title" : "PIGLASAPAT Creative Team",
         "officers" : [
             {
-                "name": "Jayne Marie Delos Santos",
+                "name": "Jayne Delos Santos",
                 "position": "Creatives Director",
                 "img":DelosSantos
             },
@@ -285,7 +285,7 @@ export const deputiesDepartmentData = [
                 "img":Arcala
             },
             {
-                "name": "Marian Jayvee Magsigay",
+                "name": "Marian Magsigay",
                 "position": "Creatives Deputy Director",
                 "img":Magsigay
             },
@@ -310,7 +310,7 @@ export const deputiesDepartmentData = [
                 "img":Calzada
             },
             {
-                "name": "Kristina Fatima Anna Guba",
+                "name": "Kristina Fatima Guba",
                 "position": "Layout Assistant Head",
                 "img":Guba
             },
@@ -340,7 +340,7 @@ export const deputiesDepartmentData = [
         "title" : "Department Directors of the Treasurer",
         "officers" : [
             {
-                "name": "Ana Margarita Bacalso",
+                "name": "Ana Bacalso",
                 "position": "Sponsorships Director",
                 "img":Bacalso
             },
@@ -357,6 +357,16 @@ export const deputiesDepartmentData = [
             {
                 "name": "Youka Hayashiyama",
                 "position": "Logistics Deputy Director",
+                "img":Hayashiyama
+            },
+            {
+                "name": "Nastashia Ricabo",
+                "position": "Business Development Director",
+                "img":Hayashiyama
+            },
+            {
+                "name": "Tomas Nazareno",
+                "position": "Business Development Deputy Director",
                 "img":Hayashiyama
             }
         ]

@@ -19,7 +19,7 @@ export const executiveBoardData = [
         "img": Lim
     },
     {
-        "name": "Chris Laurence Tungpalan",
+        "name": "Chris Tungpalan",
         "position": "External Vice President",
         "img": Tungpalan
     },
@@ -29,7 +29,7 @@ export const executiveBoardData = [
         "img": Ang
     },
     {
-        "name": "Vince Christian Padernal",
+        "name": "Vince Padernal",
         "position": "Treasurer",
         "img": Padernal
     },

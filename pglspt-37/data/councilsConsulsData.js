@@ -13,6 +13,15 @@ import Lipasan from "@/public/images/officers/Lipasan.jpg"
 import Briones from "@/public/images/officers/Briones.jpg"
 import Damigan from "@/public/images/officers/Damigan.jpg"
 import Velasco from "@/public/images/officers/Velasco.jpg"
+import Victoria from "@/public/images/officers/Ang.jpg"
+import Limjuco from "@/public/images/officers/Limjuco.jpg"
+import Olivares from "@/public/images/officers/Olivares.jpg"
+import Castillones from "@/public/images/officers/Ang.jpg"
+import Ohina from "@/public/images/officers/Ohina.jpg"
+import Alcosaba from "@/public/images/officers/Alcosaba.jpg"
+import Rivera from "@/public/images/officers/Rivera.jpg"
+import Vinluan from "@/public/images/officers/Vinluan.jpg"
+
 
 export const councilConsulsData = [
     {
@@ -34,7 +43,7 @@ export const councilConsulsData = [
                 "img": Supiter
             },
             {
-                "name": "Krystinne Andrea Ragudo",
+                "name": "Krystinne Ragudo",
                 "position": "Batch 34 Assistant Secretary-General",
                 "img": Ragudo
             },
@@ -59,7 +68,7 @@ export const councilConsulsData = [
                 "img": Sabello
             },
             {
-                "name": "Karla Ylena Madroñero",
+                "name": "Karla Madroñero",
                 "position": "Batch 35 Secretary-General",
                 "img": Madronero
             },
@@ -79,7 +88,7 @@ export const councilConsulsData = [
         "title" : "Batch 36 Council",
         "officers" : [
             {
-                "name": "Kissy Cassandra Barrion",
+                "name": "Kissy Barrion",
                 "position": "Batch 36 Representative",
                 "img": Barrion
             },
@@ -89,7 +98,7 @@ export const councilConsulsData = [
                 "img": Lipasan
             },
             {
-                "name": "Rosh Hashana Briones",
+                "name": "Hashana Briones",
                 "position": "Batch 36 Secretary-General",
                 "img": Briones
             },
@@ -102,6 +111,51 @@ export const councilConsulsData = [
                 "name": "Art Moises Velasco",
                 "position": "Batch 36 Finance Officer",
                 "img": Velasco
+            }
+        ]
+    },
+    {
+        "title" : "Cluster Consuls",
+        "officers" : [
+            {
+                "name": "Bianca Dela Victoria",
+                "position": "Accountancy Consul",
+                "img": Victoria
+            },
+            {
+                "name": "Sebastian Limjuco",
+                "position": "Business & Management Consul ",
+                "img": Limjuco
+            },
+            {
+                "name": "Sheendy Olivares",
+                "position": "Humanities & Letters Consul",
+                "img": Olivares
+            },
+            {
+                "name": "Alec Castillones",
+                "position": "Natural Sciences & Mathematics Consul",
+                "img": Castillones
+            },
+            {
+                "name": "Dianne Grace Ohina",
+                "position": "School of Engineering & Architecture Consul",
+                "img": Ohina
+            },
+            {
+                "name": "Estelle Alcosaba",
+                "position": "School of Education Consul ",
+                "img": Alcosaba
+            },
+            {
+                "name": "Klarice Runcee Rivera",
+                "position": "School of Nursing Consul",
+                "img": Rivera
+            },
+            {
+                "name": "Michael Vinluan",
+                "position": "Social Sciences Consul ",
+                "img": Vinluan
             }
         ]
     }

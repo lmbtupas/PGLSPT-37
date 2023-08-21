@@ -38,7 +38,7 @@ export default function MilestoneTabs() {
                 className: "bg-transparent sm:border-r-2 shadow-none rounded-none",
                 }}
             >
-                { matches && <div className='text-white font-body text-2xl md:text-3xl text-right pr-4 pb-4'>MILESTONES</div>}
+                { matches && <div className='text-yellow font-bold text-2xl md:text-3xl text-right pr-4 pb-4'>MILESTONES</div>}
                 {milestonesData.map((item, index) => (
                 <Tab
                     key={index}
