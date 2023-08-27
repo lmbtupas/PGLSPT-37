@@ -27,7 +27,7 @@ export default function About() {
           <div className="z-[3] flex flex-col items-center justify-center">
             <h2 className="header_2"> Our Pillars </h2>
             <h2 className="subheader_1 text-center uppercase"> A PIGLASAPAT Leader Adheres to the Three Pillars  </h2>
-              <div className="p-2">
+              <div className="w-fit">
                 <Slider />
               </div>
           </div>
