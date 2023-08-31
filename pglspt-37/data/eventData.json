@@ -1,7 +1,9 @@
 {
     "events" : [
         {
-            "month": "August 2023",
+            "month": "August",
+            "month_num": 8,
+            "year": 2023,
             "event" : [
                 {
                     "title": "PGLS 37 1st Round Table Discussion",
@@ -30,7 +32,9 @@
             ]
         },
         {
-            "month": "September 2023",
+            "month": "September",
+            "month_num": 9,
+            "year": 2023,
             "event" : [
                 {
                     "title": "Liyab: The Official PGLS Publication Launching",
@@ -51,7 +55,9 @@
             ]
         },
         {
-            "month": "October 2023",
+            "month": "October",
+            "month_num": 10,
+            "year": 2023,
             "event" : [
                 {
                     "title": "Our Phoenix Prologue: The PGLS 37 Constitutional Plebiscite",
@@ -64,7 +70,9 @@
             ]
         },
         {
-            "month": "November 2023",
+            "month": "November",
+            "month_num": 11,
+            "year": 2023,
             "event" : [
                 {
                     "title": "PGLS 37 #AralTugonServices: Online Tutorial Sessions",
@@ -77,7 +85,9 @@
             ]
         },
         {
-            "month": "December 2023",
+            "month": "December",
+            "month_num": 12,
+            "year": 2023,
             "event" : [
                 {
                     "title": "PGLS 37 #AralTugonServices: Class Recommendations",
@@ -90,11 +100,13 @@
             ]
         },
         {
-            "month": "January 2024",
+            "month": "January",
+            "month_num": 1,
+            "year": 2024,
             "event" : [
                 {
                     "title": "PGLS 37 #AralTugonServices: Notes / Resources Sharing Catalog",
-                    "date": "January 10, 2023"
+                    "date": "January 10, 2024"
                 },
                 {
                     "title": "PGLS 37 #NurtureTheNext: Mentorship Session 4",
@@ -111,11 +123,13 @@
             ]
         },
         {
-            "month": "February 2024",
+            "month": "February",
+            "month_num": 2,
+            "year": 2024,
             "event" : [
                 {
                     "title": "PGLS 37 #NurtureTheNext: Mentorship Session 5",
-                    "date": "February 2, 2023"
+                    "date": "February 2, 2024"
                 },
                 {
                     "title": "Project Sagana 2023 Year 2",
@@ -128,7 +142,9 @@
             ]
         },
         {
-            "month": "March 2024",
+            "month": "March",
+            "month_num": 3,
+            "year": 2024,
             "event" : [
                 {
                     "title": "Women's Month Talk",
@@ -137,7 +153,9 @@
             ]
         },
         {
-            "month": "April 2024",
+            "month": "April",
+            "month_num": 4,
+            "year": 2024,
             "event" : [
                 {
                     "title": "PGLS 37 #AralTugonServices: Online Tutorial Sessions",
@@ -145,7 +163,7 @@
                 },
                 {
                     "title": "Filipino Youth Leadership Program 2023 Year 2 Launching ",
-                    "date": "April 8, 2023"
+                    "date": "April 8, 2024"
                 },
                 {
                     "title": "Phoenix Paragon Awards 2024: The 1st PGLS Awarding Ceremony",
@@ -154,7 +172,9 @@
             ]
         },
         {
-            "month": "May 2024",
+            "month": "May",
+            "month_num": 5,
+            "year": 2024,
             "event" : [
                 {
                     "title": "PGLS 37 #AralTugonServices: Class Recommendations",
