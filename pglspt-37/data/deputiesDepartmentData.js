@@ -49,6 +49,8 @@ import Bacalso from "@/public/images/officers/Ang.jpg"
 import Amarga from "@/public/images/officers/Amarga.jpg"
 import Zacaria from "@/public/images/officers/Zacaria.jpg"
 import Hayashiyama from "@/public/images/officers/Hayashiyama.jpg"
+import Ricabo from "@/public/images/officers/Ricabo.jpg"
+import Nazareno from "@/public/images/officers/Nazareno.jpg"
 
 export const deputiesDepartmentData = [
     {
@@ -362,12 +364,12 @@ export const deputiesDepartmentData = [
             {
                 "name": "Nastashia Ricabo",
                 "position": "Business Development Director",
-                "img":Hayashiyama
+                "img":Ricabo
             },
             {
                 "name": "Tomas Nazareno",
                 "position": "Business Development Deputy Director",
-                "img":Hayashiyama
+                "img":Nazareno
             }
         ]
     }
