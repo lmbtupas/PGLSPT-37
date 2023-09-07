@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React from 'react';
 import Background from '@/components/Background';
@@ -8,12 +8,8 @@ import data from '@/data/eventData.json';
 
 export default function Activities() {
   const currentDate = new Date();
-  const currentMonth = currentDate.getMonth()+1; // Add 1 to make months 1-indexed
+  const currentMonth = currentDate.getMonth() + 1; // Add 1 to make months 1-indexed
   const currentYear = currentDate.getFullYear();
-
-  const isAfterCurrentMonthYear = (eventMonth, eventYear) => {
-    return eventYear > currentYear || (eventYear === currentYear && eventMonth >= currentMonth);
-  };
 
   return (
     <Background bgImg={bg}>
@@ -24,13 +20,12 @@ export default function Activities() {
         data.events.map((item, index) => {
           const eventMonth = item.month_num;
           const eventYear = item.year;
-          const month_name = item.month;
 
-          if (isAfterCurrentMonthYear(eventMonth, eventYear)) {
+          if (eventYear === currentYear && eventMonth === currentMonth) {
             return (
               <div key={index} className='flex flex-col mb-24'>
                 <div className='text-center mb-8 subheader_2'>
-                  {month_name} {eventYear}
+                  {item.month} {item.year}
                 </div>
                 <div>
                   <div className='flex flex-row flex-wrap justify-center mx-4 gap-8'>
@@ -48,8 +43,8 @@ export default function Activities() {
               </div>
             );
           }
-          return null; // Hide events for months before the current month and year
-        }).filter(Boolean) // Filter out null values
+          return null; // Hide events for other months and years
+        })
       }
     </Background>
   );
