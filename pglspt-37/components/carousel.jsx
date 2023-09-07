@@ -4,7 +4,7 @@ import { Carousel, Typography } from "@material-tailwind/react";
  
 export default function Slider() {
   return (
-    <Carousel className="rounded-xl">
+    <Carousel className="">
       <div className="relative h-full md:h-[540px] w-full">
         <img
           src="/images/carousel_1.jpg"

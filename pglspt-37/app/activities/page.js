@@ -8,7 +8,7 @@ import data from '@/data/eventData.json';
 
 export default function Activities() {
   const currentDate = new Date();
-  const currentMonth = currentDate.getMonth(); // Add 1 to make months 1-indexed
+  const currentMonth = currentDate.getMonth()+1; // Add 1 to make months 1-indexed
   const currentYear = currentDate.getFullYear();
 
   const isAfterCurrentMonthYear = (eventMonth, eventYear) => {
@@ -17,7 +17,7 @@ export default function Activities() {
 
   return (
     <Background bgImg={bg}>
-      <div className='header_2 text-center mt-12 mb-24'>
+      <div className='header_2 text-center mt-12 mb-12'>
         UPCOMING ACTIVITIES
       </div>
       {

@@ -13,7 +13,7 @@ export default function About() {
             <h1 className="font-header text-yellow text-5xl">PIGLASAPAT</h1>
             <h3 className="font-header text-white text-xl">Pinag-isang Lakas ng Samahan ng mga Progresibong Atenista</h3>
           </div>
-          <div className="px-6 md:px-40 justify-center align-middle items-center font-body font-normal text-white md:text-2xl">
+          <div className="max-w-sm md:max-w-2xl lg:max-w-4xl justify-center align-middle items-center font-body font-normal text-white md:text-2xl">
             <p className="text-justify">The Pinag-isang Lakas ng Samahan ng mga Progresibong Atenista or PIGLASAPAT is the longest-running and premier socio-civic and political organization of Ateneo de Davao University established in 1986. </p>
             <p className="text-justify mt-5">Formed during times of national distress brought by Martial Law, the organization has propelled resilience over the past decades. It became a leading voice that echoed the students' call for social justice.</p>
             <p className="text-justify mt-5">As it evolved over the past 37 years, the organization has become a premium vehicle for student leaders to advance their contribution to the university mission and to society - <span className="text-yellow">Para sa Ateneo, Para sa Lipunan!</span></p>
@@ -33,18 +33,7 @@ export default function About() {
 
         <section className="flex flex-col md:flex-row justify-center items-center bg-white h-full px-4 md:px-12">  
           <div className="font-body text-lg text-justify px-6 items-center justify-center align-middle">
-            <div className=" items-center justify-center">
-              <div className='mt-5'>
-                <Image
-                  src="/images/COP.png"
-                  width={550}
-                  height={550}
-                  alt="chase our purpose logotype"
-                  priority={true}
-                  className="items-center justify-center"
-                  unoptimized
-                />
-              </div>
+            <div className=" items-center justify-center md:pr-6">
             <p className="mt-5 font-italic font-extrabold">What are we truly seeking for?</p>
             <p className="mt-5">For <span className="text-blue font-bold">37</span> years, the <span className="text-blue font-bold">Pinag-Isang Lakas ng Samahan ng mga Progresibong Atenista</span> journeyed its way through the test of time. The stories of defeat, triumphs, downfall, and rebirth are what fueled the organization to continue pursuing its mission through ups and downs, crests and troughs. </p>
             <p className="mt-5">Moreso, navigating through a world that continues to progress and circumstances that continue to evolve, we find ourselves reaching out for our <span className="text-blue font-bold">ultimate purpose</span>. </p>
@@ -72,6 +61,7 @@ export default function About() {
             alt="cop image 3"
             priority={true}
             unoptimized
+            className="hidden lg:block" 
             style={{ height: '100%'}}
           />
         </section>

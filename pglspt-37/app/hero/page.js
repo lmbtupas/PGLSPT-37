@@ -31,11 +31,11 @@ export default function Hero() {
                 </div>
 
                 <div className='flex flex-col w-[20rem]'>
-                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSf9ovEkYDHVLfIIbj26Wv2HQv5m1Y1y6IzECKiG16p39p5EUA/viewform' className="transition ease-in-out bg-white text-blue text-xl text-center font-bold py-2 px-4 rounded-lg z-[2] mt-6 hover:bg-yellow hover:text-blue hover:delay-200" rel="noopener noreferrer" target="_blank">
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSf9ovEkYDHVLfIIbj26Wv2HQv5m1Y1y6IzECKiG16p39p5EUA/viewform' className="transition ease-in-out bg-white text-blue text-xl text-center font-bold py-2 px-4 rounded-lg z-[2] mt-6 hover:bg-yellow hover:text-blue hover:delay-100" rel="noopener noreferrer" target="_blank">
                         For 1st Years
                     </a>
 
-                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSfMtjaGgQnbntPFAwg63qqzre7hgVXeSMx0ovVSNSntmOWZaQ/viewform' className="transition ease-in-out bg-white text-blue text-xl text-center font-bold py-2 px-4 rounded-lg z-[2] mt-6 hover:bg-yellow hover:text-blue hover:delay-200" rel="noopener noreferrer" target="_blank" >
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSfMtjaGgQnbntPFAwg63qqzre7hgVXeSMx0ovVSNSntmOWZaQ/viewform' className="transition ease-in-out bg-white text-blue text-xl text-center font-bold py-2 px-4 rounded-lg z-[2] mt-6 hover:bg-yellow hover:text-blue hover:delay-100" rel="noopener noreferrer" target="_blank" >
                         For 2nd-5th Years
                     </a>
                 </div>
