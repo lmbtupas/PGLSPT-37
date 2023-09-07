@@ -55,7 +55,7 @@ export default function MilestoneTabs() {
                 <TabPanel key={index} value={index} className="h-full text-white px-0 sm:px-6">
                     <div className='h-full rounded-lg overflow-hidden'>
                         <div className="h-56 w-full relative">
-                            <Image alt="/" src={item.img} fill={true} style={{objectFit: "cover"}} className=''/>   
+                            <Image alt="/" src={item.img} fill={true} className='object-cover object-bottom'/>   
                         </div>
                         <div className=''>
                             <div className='text-center subheader_1 pt-2'>
@@ -69,6 +69,7 @@ export default function MilestoneTabs() {
                             </div>
                             <Link href={item.link} className='mt-auto flex justify-end' rel="noopener noreferrer" target="_blank">
                                 <Image
+                                    loading="lazy"
                                     src="/images/arrow_button.png"
                                     width={35}
                                     height={35}
