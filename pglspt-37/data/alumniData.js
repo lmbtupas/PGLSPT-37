@@ -100,7 +100,7 @@ export const alumniData = [
             },
             {
                 "name": "Margaux Pang",
-                "position": "Top 15, Philippine Nursing Licensure Exam May 2022",
+                "position": "Top 15, Philippine Nursing Licensure Exam November 2022",
                 "img": Pang
             }
         ]

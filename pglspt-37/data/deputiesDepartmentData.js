@@ -222,7 +222,7 @@ export const deputiesDepartmentData = [
                 "img":David
             },
             {
-                "name": "Charyssa Gaile Piñar",
+                "name": "Charyssa Gaile Piañar",
                 "position": "Partnerships and Linkages Deputy Director",
                 "img":Pinar
             },
