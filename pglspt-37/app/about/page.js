@@ -19,7 +19,7 @@ export default function About() {
             <h1 className="font-header text-yellow text-5xl">PIGLASAPAT</h1>
             <h3 className="font-header text-white text-xl">Pinag-isang Lakas ng Samahan ng mga Progresibong Atenista</h3>
           </div>
-          <div className="max-w-sm md:max-w-2xl lg:max-w-4xl justify-center align-middle items-center font-body font-normal text-white md:text-2xl">
+          <div className="px-6 max-w-sm md:max-w-2xl lg:max-w-4xl justify-center align-middle items-center font-body font-normal text-white md:text-2xl">
             <p className="text-justify">The Pinag-isang Lakas ng Samahan ng mga Progresibong Atenista or PIGLASAPAT is the longest-running and premier socio-civic and political organization of Ateneo de Davao University established in 1986. </p>
             <p className="text-justify mt-5">Formed during times of national distress brought by Martial Law, the organization has propelled resilience over the past decades. It became a leading voice that echoed the students' call for social justice.</p>
             <p className="text-justify mt-5">As it evolved over the past 37 years, the organization has become a premium vehicle for student leaders to advance their contribution to the university mission and to society - <span className="text-yellow">Para sa Ateneo, Para sa Lipunan!</span></p>
@@ -47,8 +47,8 @@ export default function About() {
             <p className="mt-5">But, a true PIGLASAPAT leader is <span className="text-blue font-bold">bold</span>. So, we don’t just run towards our purpose — <span className="text-blue font-bold">we chase it</span>. We chase, even if it means going against the rapids. We chase, even if it means moving mountains. We chase, no matter how difficult the circumstances could get. A deviant from the status quo, a challenger of the norm, a  trailblazer of society — this is the <span className="text-blue font-bold">Phoenix spirit</span> we live for. </p>
             <p className="mt-5">On our 37th year, we venture forward to the endless possibilities ahead of us while remaining rooted to our biggest why’s. Today, we no longer wait for the perfect chances. We no longer sit idle in anticipation for change.</p>
           
-              <div className="mt-5 flex flex-row align-middle justify-center md:justify-normal items-center mb-5">
-                <p className="text-blue font-bold mr-3 "> Together we,</p>
+              <div className="flex flex-col md:flex-row align-middle justify-center md:justify-normal items-center mt-5 md:mt-5 mb-5">
+                <p className="text-blue font-bold -mb-5 md:mr-3 md:mb-0"> Together we,</p>
                 <Image
                   src="/images/COP.png"
                   width={250}
