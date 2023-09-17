@@ -47,7 +47,7 @@ import Miranda from "@/public/images/officers/Miranda.jpg"
 import Gomez from "@/public/images/officers/Gomez.jpg"
 import Bacalso from "@/public/images/officers/Bacalso.jpg"
 import Amarga from "@/public/images/officers/Amarga.jpg"
-import Zacaria from "@/public/images/officers/Zacaria.jpg"
+import Espartero from "@/public/images/officers/Espartero.jpg"
 import Hayashiyama from "@/public/images/officers/Hayashiyama.jpg"
 import Ricabo from "@/public/images/officers/Ricabo.jpg"
 import Nazareno from "@/public/images/officers/Nazareno.jpg"
@@ -352,14 +352,14 @@ export const deputiesDepartmentData = [
                 "img":Amarga
             },
             {
-                "name": "Najerah Zacaria",
+                "name": "Youka Hayashiyama",
                 "position": "Logistics Director",
-                "img":Zacaria
+                "img":Hayashiyama
             },
             {
-                "name": "Youka Hayashiyama",
+                "name": "Ma. Jessielyn Espartero",
                 "position": "Logistics Deputy Director",
-                "img":Hayashiyama
+                "img":Espartero
             },
             {
                 "name": "Nastashia Ricabo",

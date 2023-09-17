@@ -5,6 +5,7 @@ import Layag from "@/public/images/milestones/Layag.jpeg"
 import PrideMarch from "@/public/images/milestones/PrideMarch.jpeg"
 import ProjectKaramay from "@/public/images/milestones/ProjectKaramay.jpeg"
 import TulongSkwela from "@/public/images/milestones/TulongSkwela.jpeg"
+import EcoCongress from "@/public/images/milestones/EcoCongress.jpg"
 
 import img1 from '@/public/images/hero_1.jpg'
 
@@ -34,7 +35,7 @@ export const milestonesData = [
         "title": "2nd Eco-Congress",
         "date": "2018",
         "text": "PGLS initiated the second installment of the AdDU Eco Congress last 2018, which resulted in resolutions crafted by Atenean delegates to lobby eco-friendly policies and programs for the environment.",
-        "img": img1,
+        "img": EcoCongress,
         "link": "#"
     },
     {
@@ -42,7 +43,7 @@ export const milestonesData = [
         "date": "2021",
         "text": "FYLP is a month-long leadership development experience to learn directly from the nation's key storytellers, esteemed lecturers, and young-driven mentors by 30 sterling student leaders of Mindanao.",
         "img": fylp,
-        "link": "#"
+        "link": "https://www.facebook.com/phfylp"
     },
     {
         "title": "Balik Silid PH",
@@ -63,7 +64,7 @@ export const milestonesData = [
         "date": "2022",
         "text": "PIGLASAPAT initiates its own adopt-a-hectare program at the Ayala Carbon Forest, Davao City, and commits to nurturing its seedlings in contribution to environmental conservation.",
         "img": img1,
-        "link": "#"
+        "link": "https://www.facebook.com/ateneopiglas/posts/pfbid0mYFjFFB2fbtFLUcw2BM2Bt5WgPqoaGYxc7XmjRRdaUHEYuPtmCyma3PGTGNK2rhVl"
     },
     {
         "title": "Project Karamay",

@@ -12,8 +12,8 @@ import Barrion from "@/public/images/officers/Barrion.jpg"
 import Lipasan from "@/public/images/officers/Lipasan.jpg"
 import Briones from "@/public/images/officers/Briones.jpg"
 import Damigan from "@/public/images/officers/Damigan.jpg"
-import Velasco from "@/public/images/officers/Velasco.jpg"
-import Victoria from "@/public/images/officers/Ang.jpg"
+import Guerra from "@/public/images/officers/Guerra.jpg"
+import DelaVictoria from "@/public/images/officers/DelaVictoria.jpg"
 import Limjuco from "@/public/images/officers/Limjuco.jpg"
 import Olivares from "@/public/images/officers/Olivares.jpg"
 import Castillones from "@/public/images/officers/Ang.jpg"
@@ -108,9 +108,9 @@ export const councilConsulsData = [
                 "img": Damigan
             },
             {
-                "name": "Art Moises Velasco",
+                "name": "Bea Lorraine Guerra",
                 "position": "Batch 36 Finance Officer",
-                "img": Velasco
+                "img": Guerra
             }
         ]
     },
@@ -120,7 +120,7 @@ export const councilConsulsData = [
             {
                 "name": "Bianca Dela Victoria",
                 "position": "Accountancy Consul",
-                "img": Victoria
+                "img": DelaVictoria
             },
             {
                 "name": "Sebastian Limjuco",
