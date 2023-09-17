@@ -3,6 +3,12 @@ import AlumniCard from './AlumniCard';
 import {alumniData} from '@/data/alumniData.js'
 import bg from '@/public/images/backgroundImages/alumnibg.jpg'
 
+export const metadata = {
+  title: 'Notable Alumni PIGLASAPAT 37',
+  description:
+    'The notable alumni of PIGLASAPAT',
+};
+
 export default function page() {
   return (
     <Background bgImg={bg}>

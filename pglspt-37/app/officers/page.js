@@ -6,6 +6,12 @@ import batch from '@/public/images/officersPage/batch.jpg'
 import deps from '@/public/images/officersPage/deps.jpg'
 import exec from '@/public/images/officersPage/exec.jpg'
 
+export const metadata = {
+  title: 'Officers PIGLASAPAT 37',
+  description:
+    'The officers of PIGLASAPAT 37',
+};
+
 export default function page() {
   return (
     <Background bgImg={bg}>

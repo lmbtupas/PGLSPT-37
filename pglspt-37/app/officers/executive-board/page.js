@@ -3,6 +3,12 @@ import ProfileCard from '@/components/ProfileCard';
 import {executiveBoardData} from '@/data/executiveBoardData.js'
 import bg from '@/public/images/officersPage/exec.jpg'
 
+export const metadata = {
+  title: 'Executive Board PIGLASAPAT 37',
+  description:
+    'The executive board of PIGLASAPAT 37',
+};
+
 export default function page() {
   return (
     <Background bgImg={bg}>

@@ -3,6 +3,12 @@ import ProfileCard from '@/components/ProfileCard';
 import {deputiesDepartmentData} from '@/data/deputiesDepartmentData.js'
 import bg from '@/public/images/officersPage/deps.jpg'
 
+export const metadata = {
+  title: 'Deputies & Departments PIGLASAPAT 37',
+  description:
+    'The deputies and departments of PIGLASAPAT 37',
+};
+
 export default function page() {
   return (
     <Background bgImg={bg}>

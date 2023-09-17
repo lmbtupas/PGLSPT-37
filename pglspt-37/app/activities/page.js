@@ -6,6 +6,12 @@ import bg from '@/public/images/backgroundImages/activitiesbg.jpg';
 import EventCard from './EventCard';
 import data from '@/data/eventData.json';
 
+export const metadata = {
+  title: 'Activities PIGLASAPAT 37',
+  description:
+    'The upcoming activities of PIGLASAPAT.',
+};
+
 export default function Activities() {
   const currentDate = new Date();
   const currentMonth = currentDate.getMonth() + 1; // Add 1 to make months 1-indexed

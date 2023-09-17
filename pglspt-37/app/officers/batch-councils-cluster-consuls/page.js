@@ -3,6 +3,12 @@ import ProfileCard from '@/components/ProfileCard';
 import {councilConsulsData} from '@/data/councilsConsulsData.js'
 import bg from '@/public/images/officersPage/batch.jpg'
 
+export const metadata = {
+  title: 'Batch Councils & Cluster Consuls PIGLASAPAT 37',
+  description:
+    'The batch councils and cluster consuls of PIGLASAPAT 37',
+};
+
 export default function page() {
   return (
     <Background bgImg={bg}>

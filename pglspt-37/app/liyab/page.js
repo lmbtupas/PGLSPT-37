@@ -6,6 +6,12 @@ import LiyabCard from './LiyabCard';
 import data from '@/data/liyabData.json'
 import Image from 'next/image';
 
+export const metadata = {
+  title: 'Liyab PIGLASAPAT 37',
+  description:
+    'The content of the official publication arm of PIGLASAPAT',
+};
+
 export default function Liyab() {
   return (
     <Background bgImg={bg}>

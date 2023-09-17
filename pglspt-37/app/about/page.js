@@ -4,6 +4,12 @@ import Slider from "@/components/Carousel"
 import Background from "@/components/Background"
 import bg from '@/public/images/backgroundImages/PGLS-49.jpg'
 
+export const metadata = {
+  title: 'About PIGLASAPAT 37',
+  description:
+    'The Pinag-isang Lakas ng Samahan ng mga Progresibong Atenista or PIGLASAPAT is a socio-civic and political organization of Ateneo de Davao University established in 1986.',
+};
+
 export default function About() {
   return (
     <div className="">
