@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import Background from '@/components/Background';
 import bg from '@/public/images/backgroundImages/activitiesbg.jpg';

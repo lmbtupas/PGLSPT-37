@@ -1,5 +1,3 @@
-'use client'
-
 import Background from '@/components/Background';
 import bg from '@/public/images/backgroundImages/liyabbg.jpg'
 import LiyabCard from './LiyabCard';
