@@ -95,7 +95,7 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link href='ttps://www.instagram.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
+            <Link href='https://www.instagram.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
               <Image
                   src="/images/instagram.png"
                   width={35}
@@ -153,7 +153,7 @@ const NavBar = () => {
                       alt="twitter"
                   />
                 </Link>
-                <Link href='ttps://www.instagram.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
+                <Link href='https://www.instagram.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
                   <Image
                       src="/images/instagram.png"
                       width={35}
