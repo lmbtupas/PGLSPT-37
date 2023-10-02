@@ -21,6 +21,14 @@ import Ohina from "@/public/images/officers/Ohina.jpg"
 import Alcosaba from "@/public/images/officers/Alcosaba.jpg"
 import Rivera from "@/public/images/officers/Rivera.jpg"
 import Vinluan from "@/public/images/officers/Vinluan.jpg"
+import Adolfo from "@/public/images/officers/Adolfo.jpeg"
+import Andales from "@/public/images/officers/Andales.png"
+import Lanzo from "@/public/images/officers/Lanzo.png"
+import Paculaba from "@/public/images/officers/Paculaba.png"
+import Vento from "@/public/images/officers/Vento.jpg"
+import Rosal from "@/public/images/officers/Rosal.jpg"
+
+
 
 
 export const councilConsulsData = [
@@ -111,6 +119,41 @@ export const councilConsulsData = [
                 "name": "Bea Lorraine Guerra",
                 "position": "Batch 36 Finance Officer",
                 "img": Guerra
+            }
+        ]
+    },
+    {
+        "title" : "Batch 37 Council",
+        "officers" : [
+            {
+                "name": "Naomi Lanzo",
+                "position": "Batch 37 Representative",
+                "img": Lanzo
+            },
+            {
+                "name": "Jian Paculaba",
+                "position": "Batch 37 Representative",
+                "img": Paculaba
+            },
+            {
+                "name": "Nicole Adolfo",
+                "position": "Batch 37 Representative",
+                "img": Adolfo
+            },
+            {
+                "name": "Alexandra Andales",
+                "position": "Batch 37 Secretary-General",
+                "img": Andales
+            },
+            {
+                "name": "Samantha Vento",
+                "position": "Batch 37 Assistant Secretary-General",
+                "img": Vento
+            },
+            {
+                "name": "Ma. Angelica Rosal",
+                "position": "Batch 37 Finance Officer",
+                "img": Rosal
             }
         ]
     },

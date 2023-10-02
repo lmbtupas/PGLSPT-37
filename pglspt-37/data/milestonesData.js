@@ -6,6 +6,8 @@ import PrideMarch from "@/public/images/milestones/PrideMarch.jpeg"
 import ProjectKaramay from "@/public/images/milestones/ProjectKaramay.jpeg"
 import TulongSkwela from "@/public/images/milestones/TulongSkwela.jpeg"
 import EcoCongress from "@/public/images/milestones/EcoCongress.jpg"
+import Sagana from "@/public/images/milestones/Sagana.jpg"
+
 
 import img1 from '@/public/images/hero_1.jpg'
 
@@ -63,7 +65,7 @@ export const milestonesData = [
         "title": "Sagana",
         "date": "2022",
         "text": "PIGLASAPAT initiates its own adopt-a-hectare program at the Ayala Carbon Forest, Davao City, and commits to nurturing its seedlings in contribution to environmental conservation.",
-        "img": img1,
+        "img": Sagana,
         "link": "https://www.facebook.com/ateneopiglas/posts/pfbid0mYFjFFB2fbtFLUcw2BM2Bt5WgPqoaGYxc7XmjRRdaUHEYuPtmCyma3PGTGNK2rhVl"
     },
     {
