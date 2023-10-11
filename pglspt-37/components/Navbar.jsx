@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
@@ -39,7 +39,7 @@ const NavBar = () => {
   return (
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-[4] ease-in duration-300'>
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white font-body'>
-        <Link href='/hero'>
+        <a href='/hero'>
           <div className='min-w-[4rem]'>
             <Image
               src="/images/PIGLAS_LOGO.png"
@@ -49,60 +49,60 @@ const NavBar = () => {
               unoptimized
             />
           </div>          
-        </Link>
+        </a>
 
         <ul style={{color: `${textColor}`}} className="hidden lg:flex px-4 gap-4">
           {/* Add an onClick event to each navigation item */}
           <li className="p-4 text-xl hover:text-yellow" onClick={closeNav}>
-            <Link href='/about'> About </Link>
+            <a href='/about'> About </a>
           </li>
           <li className="p-4 text-xl hover:text-yellow" onClick={closeNav}>
-            <Link href='/milestones'> Milestones </Link>
+            <a href='/milestones'> Milestones </a>
           </li>
           <li className="p-4 text-xl hover:text-yellow" onClick={closeNav}>
-            <Link href='/officers'> Officers </Link>
+            <a href='/officers'> Officers </a>
           </li>
           <li className="p-4 text-xl hover:text-yellow" onClick={closeNav}>
-            <Link href='/notable-phoenixes'> Alumni </Link>
+            <a href='/notable-phoenixes'> Alumni </a>
           </li>
           <li className="p-4 text-xl hover:text-yellow" onClick={closeNav}>
-            <Link href='/activities'> Activities </Link>
+            <a href='/activities'> Activities </a>
           </li>
           <li className="p-4 text-xl hover:text-yellow" onClick={closeNav}>
-            <Link href='/liyab'> Liyab </Link>
+            <a href='/liyab'> Liyab </a>
           </li>
         </ul>
 
         <ul className='lg:flex gap-8 hidden '>
           <li>
-            <Link href='https://www.facebook.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
+            <a href='https://www.facebook.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
               <Image
                   src="/images/facebook.png"
                   width={35}
                   height={35}
                   alt="facebook"
               />
-            </Link>
+            </a>
           </li>
           <li>
-            <Link href='https://twitter.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
+            <a href='https://twitter.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
               <Image
                   src="/images/twitter.png"
                   width={35}
                   height={35}
                   alt="twitter"
               />
-            </Link>
+            </a>
           </li>
           <li>
-            <Link href='https://www.instagram.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
+            <a href='https://www.instagram.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
               <Image
                   src="/images/instagram.png"
                   width={35}
                   height={35}
                   alt="instagram"
               />
-            </Link>
+            </a>
           </li>
         </ul>
 
@@ -118,49 +118,49 @@ const NavBar = () => {
           <ul >
             {/* Add an onClick event to each navigation item in the mobile menu */}
             <li className="p-4 text-2xl hover:text-yellow" onClick={closeNav}>
-              <Link href='/about'> About </Link>
+              <a href='/about'> About </a>
             </li>
             <li className="p-4 text-2xl hover:text-yellow" onClick={closeNav}>
-              <Link href='/milestones'> Milestones </Link>
+              <a href='/milestones'> Milestones </a>
             </li>
             <li className="p-4 text-2xl hover:text-yellow" onClick={closeNav}>
-              <Link href='/officers'> Officers </Link>
+              <a href='/officers'> Officers </a>
             </li>
             <li className="p-4 text-2xl hover:text-yellow" onClick={closeNav}>
-              <Link href='/notable-phoenixes'> Alumni </Link>
+              <a href='/notable-phoenixes'> Alumni </a>
             </li>
             <li className="p-4 text-2xl hover:text-yellow" onClick={closeNav}>
-              <Link href='/activities'> Activities </Link>
+              <a href='/activities'> Activities </a>
             </li>
             <li className="p-4 text-2xl hover:text-yellow" onClick={closeNav}>
-              <Link href='/liyab'> Liyab </Link>
+              <a href='/liyab'> Liyab </a>
             </li>
             <ul className='mt-10'>
               <li className='flex gap-10'>
-                <Link href='https://www.facebook.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
+                <a href='https://www.facebook.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
                   <Image
                       src="/images/facebook.png"
                       width={35}
                       height={35}
                       alt="facebook"
                   />
-                </Link>
-                <Link href='https://twitter.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
+                </a>
+                <a href='https://twitter.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
                   <Image
                       src="/images/twitter.png"
                       width={35}
                       height={35}
                       alt="twitter"
                   />
-                </Link>
-                <Link href='https://www.instagram.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
+                </a>
+                <a href='https://www.instagram.com/ateneopiglas' rel="noopener noreferrer" target="_blank">
                   <Image
                       src="/images/instagram.png"
                       width={35}
                       height={35}
                       alt="instagram"
                   />
-                </Link>
+                </a>
               </li>
             </ul>
           </ul>
